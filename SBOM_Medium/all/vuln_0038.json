@@ -1,0 +1,43 @@
+{
+  "id": "CVE-2023-81560",
+  "source": "synthetic",
+  "published": "2026-02-02T10:33:31Z",
+  "severity": "high",
+  "cvss": {
+    "method": "CVSSv31",
+    "score": 7.1,
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:L"
+  },
+  "cwe": [
+    "CWE-125"
+  ],
+  "affected": {
+    "ecosystem": "pypi",
+    "package": "fastapi",
+    "range": {
+      "type": "lte",
+      "version": "3.28.15"
+    }
+  },
+  "fix": {
+    "recommended_version": "4.18.0"
+  },
+  "summary": "Synthetic vulnerability in fastapi (pypi) allowing info disclosure under certain conditions.",
+  "details": {
+    "description": "This record is synthetic and intended only for testing pipelines (parsing, scoring, reporting).",
+    "references": [
+      {
+        "type": "advisory",
+        "url": "https://example.invalid/advisories/CVE-2023-81560"
+      },
+      {
+        "type": "source",
+        "url": "https://example.invalid/pypi/fastapi"
+      }
+    ]
+  },
+  "labels": {
+    "generated_by": "M365Copilot",
+    "seed": 20260122
+  }
+}

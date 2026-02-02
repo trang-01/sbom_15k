@@ -1,0 +1,43 @@
+{
+  "id": "CVE-2025-62048",
+  "source": "synthetic",
+  "published": "2026-02-02T10:33:31Z",
+  "severity": "low",
+  "cvss": {
+    "method": "CVSSv31",
+    "score": 2.7,
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:H/A:N"
+  },
+  "cwe": [
+    "CWE-89"
+  ],
+  "affected": {
+    "ecosystem": "npm",
+    "package": "react",
+    "range": {
+      "type": "lte",
+      "version": "5.7.5"
+    }
+  },
+  "fix": {
+    "recommended_version": "3.19.38"
+  },
+  "summary": "Synthetic vulnerability in react (npm) allowing SQLi under certain conditions.",
+  "details": {
+    "description": "This record is synthetic and intended only for testing pipelines (parsing, scoring, reporting).",
+    "references": [
+      {
+        "type": "advisory",
+        "url": "https://example.invalid/advisories/CVE-2025-62048"
+      },
+      {
+        "type": "source",
+        "url": "https://example.invalid/npm/react"
+      }
+    ]
+  },
+  "labels": {
+    "generated_by": "M365Copilot",
+    "seed": 20260122
+  }
+}

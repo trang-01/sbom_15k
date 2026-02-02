@@ -1,0 +1,43 @@
+{
+  "id": "CVE-2025-73362",
+  "source": "synthetic",
+  "published": "2026-02-02T10:33:31Z",
+  "severity": "medium",
+  "cvss": {
+    "method": "CVSSv31",
+    "score": 6.6,
+    "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:L/A:L"
+  },
+  "cwe": [
+    "CWE-787"
+  ],
+  "affected": {
+    "ecosystem": "maven",
+    "package": "commons-lang3",
+    "range": {
+      "type": "lte",
+      "version": "4.19.26"
+    }
+  },
+  "fix": {
+    "recommended_version": "1.20.6"
+  },
+  "summary": "Synthetic vulnerability in commons-lang3 (maven) allowing DoS under certain conditions.",
+  "details": {
+    "description": "This record is synthetic and intended only for testing pipelines (parsing, scoring, reporting).",
+    "references": [
+      {
+        "type": "advisory",
+        "url": "https://example.invalid/advisories/CVE-2025-73362"
+      },
+      {
+        "type": "source",
+        "url": "https://example.invalid/maven/commons-lang3"
+      }
+    ]
+  },
+  "labels": {
+    "generated_by": "M365Copilot",
+    "seed": 20260122
+  }
+}

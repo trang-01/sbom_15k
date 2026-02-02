@@ -1,0 +1,43 @@
+{
+  "id": "CVE-2025-85810",
+  "source": "synthetic",
+  "published": "2026-02-02T10:33:31Z",
+  "severity": "high",
+  "cvss": {
+    "method": "CVSSv31",
+    "score": 8.7,
+    "vector": "CVSS:3.1/AV:P/AC:L/PR:H/UI:N/S:C/C:N/I:N/A:H"
+  },
+  "cwe": [
+    "CWE-190"
+  ],
+  "affected": {
+    "ecosystem": "golang",
+    "package": "grpc",
+    "range": {
+      "type": "lte",
+      "version": "0.16.38"
+    }
+  },
+  "fix": {
+    "recommended_version": "5.26.5"
+  },
+  "summary": "Synthetic vulnerability in grpc (golang) allowing path traversal under certain conditions.",
+  "details": {
+    "description": "This record is synthetic and intended only for testing pipelines (parsing, scoring, reporting).",
+    "references": [
+      {
+        "type": "advisory",
+        "url": "https://example.invalid/advisories/CVE-2025-85810"
+      },
+      {
+        "type": "source",
+        "url": "https://example.invalid/golang/grpc"
+      }
+    ]
+  },
+  "labels": {
+    "generated_by": "M365Copilot",
+    "seed": 20260122
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "CVE-2021-22739",
+  "source": "synthetic",
+  "published": "2026-02-02T10:33:31Z",
+  "severity": "low",
+  "cvss": {
+    "method": "CVSSv31",
+    "score": 2.3,
+    "vector": "CVSS:3.1/AV:P/AC:L/PR:H/UI:R/S:C/C:H/I:L/A:H"
+  },
+  "cwe": [
+    "CWE-190"
+  ],
+  "affected": {
+    "ecosystem": "golang",
+    "package": "cobra",
+    "range": {
+      "type": "lte",
+      "version": "3.0.28"
+    }
+  },
+  "fix": {
+    "recommended_version": "5.5.28"
+  },
+  "summary": "Synthetic vulnerability in cobra (golang) allowing XSS under certain conditions.",
+  "details": {
+    "description": "This record is synthetic and intended only for testing pipelines (parsing, scoring, reporting).",
+    "references": [
+      {
+        "type": "advisory",
+        "url": "https://example.invalid/advisories/CVE-2021-22739"
+      },
+      {
+        "type": "source",
+        "url": "https://example.invalid/golang/cobra"
+      }
+    ]
+  },
+  "labels": {
+    "generated_by": "M365Copilot",
+    "seed": 20260122
+  }
+}

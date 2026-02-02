@@ -1,0 +1,43 @@
+{
+  "id": "CVE-2024-54190",
+  "source": "synthetic",
+  "published": "2026-02-02T10:33:31Z",
+  "severity": "low",
+  "cvss": {
+    "method": "CVSSv31",
+    "score": 3.5,
+    "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H"
+  },
+  "cwe": [
+    "CWE-89"
+  ],
+  "affected": {
+    "ecosystem": "golang",
+    "package": "grpc",
+    "range": {
+      "type": "lte",
+      "version": "3.26.12"
+    }
+  },
+  "fix": {
+    "recommended_version": "3.14.47"
+  },
+  "summary": "Synthetic vulnerability in grpc (golang) allowing XSS under certain conditions.",
+  "details": {
+    "description": "This record is synthetic and intended only for testing pipelines (parsing, scoring, reporting).",
+    "references": [
+      {
+        "type": "advisory",
+        "url": "https://example.invalid/advisories/CVE-2024-54190"
+      },
+      {
+        "type": "source",
+        "url": "https://example.invalid/golang/grpc"
+      }
+    ]
+  },
+  "labels": {
+    "generated_by": "M365Copilot",
+    "seed": 20260122
+  }
+}

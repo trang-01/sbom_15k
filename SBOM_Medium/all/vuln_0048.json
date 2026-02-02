@@ -1,0 +1,43 @@
+{
+  "id": "CVE-2025-31392",
+  "source": "synthetic",
+  "published": "2026-02-02T10:33:31Z",
+  "severity": "medium",
+  "cvss": {
+    "method": "CVSSv31",
+    "score": 4.5,
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:N/I:N/A:N"
+  },
+  "cwe": [
+    "CWE-190"
+  ],
+  "affected": {
+    "ecosystem": "maven",
+    "package": "spring-core",
+    "range": {
+      "type": "lte",
+      "version": "2.17.41"
+    }
+  },
+  "fix": {
+    "recommended_version": "1.0.28"
+  },
+  "summary": "Synthetic vulnerability in spring-core (maven) allowing XSS under certain conditions.",
+  "details": {
+    "description": "This record is synthetic and intended only for testing pipelines (parsing, scoring, reporting).",
+    "references": [
+      {
+        "type": "advisory",
+        "url": "https://example.invalid/advisories/CVE-2025-31392"
+      },
+      {
+        "type": "source",
+        "url": "https://example.invalid/maven/spring-core"
+      }
+    ]
+  },
+  "labels": {
+    "generated_by": "M365Copilot",
+    "seed": 20260122
+  }
+}

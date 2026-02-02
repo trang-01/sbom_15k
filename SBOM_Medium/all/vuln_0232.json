@@ -1,0 +1,43 @@
+{
+  "id": "CVE-2020-94822",
+  "source": "synthetic",
+  "published": "2026-02-02T10:33:31Z",
+  "severity": "high",
+  "cvss": {
+    "method": "CVSSv31",
+    "score": 8.8,
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:H/I:L/A:N"
+  },
+  "cwe": [
+    "CWE-20"
+  ],
+  "affected": {
+    "ecosystem": "pypi",
+    "package": "numpy",
+    "range": {
+      "type": "lte",
+      "version": "4.10.11"
+    }
+  },
+  "fix": {
+    "recommended_version": "5.13.1"
+  },
+  "summary": "Synthetic vulnerability in numpy (pypi) allowing SQLi under certain conditions.",
+  "details": {
+    "description": "This record is synthetic and intended only for testing pipelines (parsing, scoring, reporting).",
+    "references": [
+      {
+        "type": "advisory",
+        "url": "https://example.invalid/advisories/CVE-2020-94822"
+      },
+      {
+        "type": "source",
+        "url": "https://example.invalid/pypi/numpy"
+      }
+    ]
+  },
+  "labels": {
+    "generated_by": "M365Copilot",
+    "seed": 20260122
+  }
+}

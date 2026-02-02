@@ -1,0 +1,43 @@
+{
+  "id": "CVE-2022-62860",
+  "source": "synthetic",
+  "published": "2026-02-02T10:33:31Z",
+  "severity": "medium",
+  "cvss": {
+    "method": "CVSSv31",
+    "score": 5.1,
+    "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L"
+  },
+  "cwe": [
+    "CWE-416"
+  ],
+  "affected": {
+    "ecosystem": "golang",
+    "package": "viper",
+    "range": {
+      "type": "lte",
+      "version": "5.7.30"
+    }
+  },
+  "fix": {
+    "recommended_version": "2.29.18"
+  },
+  "summary": "Synthetic vulnerability in viper (golang) allowing DoS under certain conditions.",
+  "details": {
+    "description": "This record is synthetic and intended only for testing pipelines (parsing, scoring, reporting).",
+    "references": [
+      {
+        "type": "advisory",
+        "url": "https://example.invalid/advisories/CVE-2022-62860"
+      },
+      {
+        "type": "source",
+        "url": "https://example.invalid/golang/viper"
+      }
+    ]
+  },
+  "labels": {
+    "generated_by": "M365Copilot",
+    "seed": 20260122
+  }
+}

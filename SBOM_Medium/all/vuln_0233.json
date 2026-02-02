@@ -1,0 +1,43 @@
+{
+  "id": "CVE-2023-68841",
+  "source": "synthetic",
+  "published": "2026-02-02T10:33:31Z",
+  "severity": "medium",
+  "cvss": {
+    "method": "CVSSv31",
+    "score": 6.5,
+    "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:L/A:H"
+  },
+  "cwe": [
+    "CWE-787"
+  ],
+  "affected": {
+    "ecosystem": "pypi",
+    "package": "urllib3",
+    "range": {
+      "type": "lte",
+      "version": "2.15.0"
+    }
+  },
+  "fix": {
+    "recommended_version": "1.11.31"
+  },
+  "summary": "Synthetic vulnerability in urllib3 (pypi) allowing RCE under certain conditions.",
+  "details": {
+    "description": "This record is synthetic and intended only for testing pipelines (parsing, scoring, reporting).",
+    "references": [
+      {
+        "type": "advisory",
+        "url": "https://example.invalid/advisories/CVE-2023-68841"
+      },
+      {
+        "type": "source",
+        "url": "https://example.invalid/pypi/urllib3"
+      }
+    ]
+  },
+  "labels": {
+    "generated_by": "M365Copilot",
+    "seed": 20260122
+  }
+}

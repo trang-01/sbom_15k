@@ -1,0 +1,43 @@
+{
+  "id": "CVE-2023-64721",
+  "source": "synthetic",
+  "published": "2026-02-02T10:33:31Z",
+  "severity": "critical",
+  "cvss": {
+    "method": "CVSSv31",
+    "score": 9.1,
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L"
+  },
+  "cwe": [
+    "CWE-352"
+  ],
+  "affected": {
+    "ecosystem": "pypi",
+    "package": "flask",
+    "range": {
+      "type": "lte",
+      "version": "0.8.1"
+    }
+  },
+  "fix": {
+    "recommended_version": "2.8.5"
+  },
+  "summary": "Synthetic vulnerability in flask (pypi) allowing SQLi under certain conditions.",
+  "details": {
+    "description": "This record is synthetic and intended only for testing pipelines (parsing, scoring, reporting).",
+    "references": [
+      {
+        "type": "advisory",
+        "url": "https://example.invalid/advisories/CVE-2023-64721"
+      },
+      {
+        "type": "source",
+        "url": "https://example.invalid/pypi/flask"
+      }
+    ]
+  },
+  "labels": {
+    "generated_by": "M365Copilot",
+    "seed": 20260122
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "CVE-2022-09170",
+  "source": "synthetic",
+  "published": "2026-02-02T10:33:31Z",
+  "severity": "high",
+  "cvss": {
+    "method": "CVSSv31",
+    "score": 7.4,
+    "vector": "CVSS:3.1/AV:P/AC:L/PR:H/UI:N/S:C/C:L/I:N/A:L"
+  },
+  "cwe": [
+    "CWE-787"
+  ],
+  "affected": {
+    "ecosystem": "pypi",
+    "package": "django",
+    "range": {
+      "type": "lte",
+      "version": "0.29.21"
+    }
+  },
+  "fix": {
+    "recommended_version": "2.7.12"
+  },
+  "summary": "Synthetic vulnerability in django (pypi) allowing XSS under certain conditions.",
+  "details": {
+    "description": "This record is synthetic and intended only for testing pipelines (parsing, scoring, reporting).",
+    "references": [
+      {
+        "type": "advisory",
+        "url": "https://example.invalid/advisories/CVE-2022-09170"
+      },
+      {
+        "type": "source",
+        "url": "https://example.invalid/pypi/django"
+      }
+    ]
+  },
+  "labels": {
+    "generated_by": "M365Copilot",
+    "seed": 20260122
+  }
+}

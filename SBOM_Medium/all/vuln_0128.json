@@ -1,0 +1,43 @@
+{
+  "id": "CVE-2023-37292",
+  "source": "synthetic",
+  "published": "2026-02-02T10:33:31Z",
+  "severity": "medium",
+  "cvss": {
+    "method": "CVSSv31",
+    "score": 6.4,
+    "vector": "CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L"
+  },
+  "cwe": [
+    "CWE-20"
+  ],
+  "affected": {
+    "ecosystem": "golang",
+    "package": "viper",
+    "range": {
+      "type": "lte",
+      "version": "0.12.3"
+    }
+  },
+  "fix": {
+    "recommended_version": "4.16.34"
+  },
+  "summary": "Synthetic vulnerability in viper (golang) allowing DoS under certain conditions.",
+  "details": {
+    "description": "This record is synthetic and intended only for testing pipelines (parsing, scoring, reporting).",
+    "references": [
+      {
+        "type": "advisory",
+        "url": "https://example.invalid/advisories/CVE-2023-37292"
+      },
+      {
+        "type": "source",
+        "url": "https://example.invalid/golang/viper"
+      }
+    ]
+  },
+  "labels": {
+    "generated_by": "M365Copilot",
+    "seed": 20260122
+  }
+}

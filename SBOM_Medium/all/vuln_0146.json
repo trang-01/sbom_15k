@@ -1,0 +1,43 @@
+{
+  "id": "CVE-2021-42669",
+  "source": "synthetic",
+  "published": "2026-02-02T10:33:31Z",
+  "severity": "critical",
+  "cvss": {
+    "method": "CVSSv31",
+    "score": 9.2,
+    "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:L/A:N"
+  },
+  "cwe": [
+    "CWE-190"
+  ],
+  "affected": {
+    "ecosystem": "pypi",
+    "package": "pyyaml",
+    "range": {
+      "type": "lte",
+      "version": "3.15.19"
+    }
+  },
+  "fix": {
+    "recommended_version": "1.22.36"
+  },
+  "summary": "Synthetic vulnerability in pyyaml (pypi) allowing info disclosure under certain conditions.",
+  "details": {
+    "description": "This record is synthetic and intended only for testing pipelines (parsing, scoring, reporting).",
+    "references": [
+      {
+        "type": "advisory",
+        "url": "https://example.invalid/advisories/CVE-2021-42669"
+      },
+      {
+        "type": "source",
+        "url": "https://example.invalid/pypi/pyyaml"
+      }
+    ]
+  },
+  "labels": {
+    "generated_by": "M365Copilot",
+    "seed": 20260122
+  }
+}

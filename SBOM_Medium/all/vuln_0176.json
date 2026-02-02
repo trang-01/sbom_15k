@@ -1,0 +1,43 @@
+{
+  "id": "CVE-2020-06291",
+  "source": "synthetic",
+  "published": "2026-02-02T10:33:31Z",
+  "severity": "critical",
+  "cvss": {
+    "method": "CVSSv31",
+    "score": 9.7,
+    "vector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H"
+  },
+  "cwe": [
+    "CWE-787"
+  ],
+  "affected": {
+    "ecosystem": "npm",
+    "package": "chalk",
+    "range": {
+      "type": "lte",
+      "version": "3.21.0"
+    }
+  },
+  "fix": {
+    "recommended_version": "5.6.0"
+  },
+  "summary": "Synthetic vulnerability in chalk (npm) allowing XSS under certain conditions.",
+  "details": {
+    "description": "This record is synthetic and intended only for testing pipelines (parsing, scoring, reporting).",
+    "references": [
+      {
+        "type": "advisory",
+        "url": "https://example.invalid/advisories/CVE-2020-06291"
+      },
+      {
+        "type": "source",
+        "url": "https://example.invalid/npm/chalk"
+      }
+    ]
+  },
+  "labels": {
+    "generated_by": "M365Copilot",
+    "seed": 20260122
+  }
+}

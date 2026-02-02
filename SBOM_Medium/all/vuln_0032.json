@@ -1,0 +1,43 @@
+{
+  "id": "CVE-2024-25546",
+  "source": "synthetic",
+  "published": "2026-02-02T10:33:31Z",
+  "severity": "medium",
+  "cvss": {
+    "method": "CVSSv31",
+    "score": 5.3,
+    "vector": "CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:L"
+  },
+  "cwe": [
+    "CWE-20"
+  ],
+  "affected": {
+    "ecosystem": "pypi",
+    "package": "cryptography",
+    "range": {
+      "type": "lte",
+      "version": "3.14.14"
+    }
+  },
+  "fix": {
+    "recommended_version": "1.7.34"
+  },
+  "summary": "Synthetic vulnerability in cryptography (pypi) allowing RCE under certain conditions.",
+  "details": {
+    "description": "This record is synthetic and intended only for testing pipelines (parsing, scoring, reporting).",
+    "references": [
+      {
+        "type": "advisory",
+        "url": "https://example.invalid/advisories/CVE-2024-25546"
+      },
+      {
+        "type": "source",
+        "url": "https://example.invalid/pypi/cryptography"
+      }
+    ]
+  },
+  "labels": {
+    "generated_by": "M365Copilot",
+    "seed": 20260122
+  }
+}

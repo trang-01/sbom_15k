@@ -1,0 +1,43 @@
+{
+  "id": "CVE-2021-93442",
+  "source": "synthetic",
+  "published": "2026-02-02T10:33:31Z",
+  "severity": "high",
+  "cvss": {
+    "method": "CVSSv31",
+    "score": 7.6,
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:H/A:H"
+  },
+  "cwe": [
+    "CWE-287"
+  ],
+  "affected": {
+    "ecosystem": "maven",
+    "package": "okhttp",
+    "range": {
+      "type": "lte",
+      "version": "0.0.46"
+    }
+  },
+  "fix": {
+    "recommended_version": "4.11.20"
+  },
+  "summary": "Synthetic vulnerability in okhttp (maven) allowing SQLi under certain conditions.",
+  "details": {
+    "description": "This record is synthetic and intended only for testing pipelines (parsing, scoring, reporting).",
+    "references": [
+      {
+        "type": "advisory",
+        "url": "https://example.invalid/advisories/CVE-2021-93442"
+      },
+      {
+        "type": "source",
+        "url": "https://example.invalid/maven/okhttp"
+      }
+    ]
+  },
+  "labels": {
+    "generated_by": "M365Copilot",
+    "seed": 20260122
+  }
+}

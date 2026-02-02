@@ -1,0 +1,43 @@
+{
+  "id": "CVE-2022-05814",
+  "source": "synthetic",
+  "published": "2026-02-02T10:33:31Z",
+  "severity": "high",
+  "cvss": {
+    "method": "CVSSv31",
+    "score": 8.2,
+    "vector": "CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+  },
+  "cwe": [
+    "CWE-190"
+  ],
+  "affected": {
+    "ecosystem": "golang",
+    "package": "yaml",
+    "range": {
+      "type": "lte",
+      "version": "4.15.24"
+    }
+  },
+  "fix": {
+    "recommended_version": "3.16.12"
+  },
+  "summary": "Synthetic vulnerability in yaml (golang) allowing DoS under certain conditions.",
+  "details": {
+    "description": "This record is synthetic and intended only for testing pipelines (parsing, scoring, reporting).",
+    "references": [
+      {
+        "type": "advisory",
+        "url": "https://example.invalid/advisories/CVE-2022-05814"
+      },
+      {
+        "type": "source",
+        "url": "https://example.invalid/golang/yaml"
+      }
+    ]
+  },
+  "labels": {
+    "generated_by": "M365Copilot",
+    "seed": 20260122
+  }
+}

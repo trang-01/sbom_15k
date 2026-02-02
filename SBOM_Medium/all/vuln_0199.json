@@ -1,0 +1,43 @@
+{
+  "id": "CVE-2024-21049",
+  "source": "synthetic",
+  "published": "2026-02-02T10:33:31Z",
+  "severity": "medium",
+  "cvss": {
+    "method": "CVSSv31",
+    "score": 6.3,
+    "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:L/I:H/A:H"
+  },
+  "cwe": [
+    "CWE-190"
+  ],
+  "affected": {
+    "ecosystem": "golang",
+    "package": "toml",
+    "range": {
+      "type": "lte",
+      "version": "4.25.6"
+    }
+  },
+  "fix": {
+    "recommended_version": "2.20.28"
+  },
+  "summary": "Synthetic vulnerability in toml (golang) allowing SQLi under certain conditions.",
+  "details": {
+    "description": "This record is synthetic and intended only for testing pipelines (parsing, scoring, reporting).",
+    "references": [
+      {
+        "type": "advisory",
+        "url": "https://example.invalid/advisories/CVE-2024-21049"
+      },
+      {
+        "type": "source",
+        "url": "https://example.invalid/golang/toml"
+      }
+    ]
+  },
+  "labels": {
+    "generated_by": "M365Copilot",
+    "seed": 20260122
+  }
+}

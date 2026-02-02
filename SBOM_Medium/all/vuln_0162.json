@@ -1,0 +1,43 @@
+{
+  "id": "CVE-2020-94566",
+  "source": "synthetic",
+  "published": "2026-02-02T10:33:31Z",
+  "severity": "medium",
+  "cvss": {
+    "method": "CVSSv31",
+    "score": 4.2,
+    "vector": "CVSS:3.1/AV:P/AC:L/PR:L/UI:R/S:U/C:L/I:H/A:N"
+  },
+  "cwe": [
+    "CWE-20"
+  ],
+  "affected": {
+    "ecosystem": "npm",
+    "package": "react",
+    "range": {
+      "type": "lte",
+      "version": "2.14.40"
+    }
+  },
+  "fix": {
+    "recommended_version": "5.24.22"
+  },
+  "summary": "Synthetic vulnerability in react (npm) allowing path traversal under certain conditions.",
+  "details": {
+    "description": "This record is synthetic and intended only for testing pipelines (parsing, scoring, reporting).",
+    "references": [
+      {
+        "type": "advisory",
+        "url": "https://example.invalid/advisories/CVE-2020-94566"
+      },
+      {
+        "type": "source",
+        "url": "https://example.invalid/npm/react"
+      }
+    ]
+  },
+  "labels": {
+    "generated_by": "M365Copilot",
+    "seed": 20260122
+  }
+}

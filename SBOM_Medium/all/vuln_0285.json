@@ -1,0 +1,43 @@
+{
+  "id": "CVE-2026-33596",
+  "source": "synthetic",
+  "published": "2026-02-02T10:33:31Z",
+  "severity": "medium",
+  "cvss": {
+    "method": "CVSSv31",
+    "score": 6.2,
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:L/I:L/A:H"
+  },
+  "cwe": [
+    "CWE-125"
+  ],
+  "affected": {
+    "ecosystem": "golang",
+    "package": "protobuf",
+    "range": {
+      "type": "lte",
+      "version": "3.17.25"
+    }
+  },
+  "fix": {
+    "recommended_version": "4.29.21"
+  },
+  "summary": "Synthetic vulnerability in protobuf (golang) allowing path traversal under certain conditions.",
+  "details": {
+    "description": "This record is synthetic and intended only for testing pipelines (parsing, scoring, reporting).",
+    "references": [
+      {
+        "type": "advisory",
+        "url": "https://example.invalid/advisories/CVE-2026-33596"
+      },
+      {
+        "type": "source",
+        "url": "https://example.invalid/golang/protobuf"
+      }
+    ]
+  },
+  "labels": {
+    "generated_by": "M365Copilot",
+    "seed": 20260122
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "CVE-2026-03887",
+  "source": "synthetic",
+  "published": "2026-02-02T10:33:31Z",
+  "severity": "high",
+  "cvss": {
+    "method": "CVSSv31",
+    "score": 7.9,
+    "vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:C/C:N/I:L/A:N"
+  },
+  "cwe": [
+    "CWE-352"
+  ],
+  "affected": {
+    "ecosystem": "pypi",
+    "package": "urllib3",
+    "range": {
+      "type": "lte",
+      "version": "3.19.10"
+    }
+  },
+  "fix": {
+    "recommended_version": "1.29.41"
+  },
+  "summary": "Synthetic vulnerability in urllib3 (pypi) allowing SQLi under certain conditions.",
+  "details": {
+    "description": "This record is synthetic and intended only for testing pipelines (parsing, scoring, reporting).",
+    "references": [
+      {
+        "type": "advisory",
+        "url": "https://example.invalid/advisories/CVE-2026-03887"
+      },
+      {
+        "type": "source",
+        "url": "https://example.invalid/pypi/urllib3"
+      }
+    ]
+  },
+  "labels": {
+    "generated_by": "M365Copilot",
+    "seed": 20260122
+  }
+}

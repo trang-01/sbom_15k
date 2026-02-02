@@ -1,0 +1,43 @@
+{
+  "id": "CVE-2023-69716",
+  "source": "synthetic",
+  "published": "2026-02-02T10:33:31Z",
+  "severity": "critical",
+  "cvss": {
+    "method": "CVSSv31",
+    "score": 9.2,
+    "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:H"
+  },
+  "cwe": [
+    "CWE-190"
+  ],
+  "affected": {
+    "ecosystem": "pypi",
+    "package": "pandas",
+    "range": {
+      "type": "lte",
+      "version": "1.25.46"
+    }
+  },
+  "fix": {
+    "recommended_version": "2.15.47"
+  },
+  "summary": "Synthetic vulnerability in pandas (pypi) allowing info disclosure under certain conditions.",
+  "details": {
+    "description": "This record is synthetic and intended only for testing pipelines (parsing, scoring, reporting).",
+    "references": [
+      {
+        "type": "advisory",
+        "url": "https://example.invalid/advisories/CVE-2023-69716"
+      },
+      {
+        "type": "source",
+        "url": "https://example.invalid/pypi/pandas"
+      }
+    ]
+  },
+  "labels": {
+    "generated_by": "M365Copilot",
+    "seed": 20260122
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "CVE-2023-15322",
+  "source": "synthetic",
+  "published": "2026-02-02T10:33:31Z",
+  "severity": "high",
+  "cvss": {
+    "method": "CVSSv31",
+    "score": 8.8,
+    "vector": "CVSS:3.1/AV:A/AC:H/PR:L/UI:R/S:C/C:N/I:N/A:L"
+  },
+  "cwe": [
+    "CWE-190"
+  ],
+  "affected": {
+    "ecosystem": "npm",
+    "package": "webpack",
+    "range": {
+      "type": "lte",
+      "version": "3.10.43"
+    }
+  },
+  "fix": {
+    "recommended_version": "4.16.39"
+  },
+  "summary": "Synthetic vulnerability in webpack (npm) allowing info disclosure under certain conditions.",
+  "details": {
+    "description": "This record is synthetic and intended only for testing pipelines (parsing, scoring, reporting).",
+    "references": [
+      {
+        "type": "advisory",
+        "url": "https://example.invalid/advisories/CVE-2023-15322"
+      },
+      {
+        "type": "source",
+        "url": "https://example.invalid/npm/webpack"
+      }
+    ]
+  },
+  "labels": {
+    "generated_by": "M365Copilot",
+    "seed": 20260122
+  }
+}

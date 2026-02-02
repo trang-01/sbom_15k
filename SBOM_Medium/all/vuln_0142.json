@@ -1,0 +1,43 @@
+{
+  "id": "CVE-2025-54661",
+  "source": "synthetic",
+  "published": "2026-02-02T10:33:31Z",
+  "severity": "medium",
+  "cvss": {
+    "method": "CVSSv31",
+    "score": 5.4,
+    "vector": "CVSS:3.1/AV:A/AC:H/PR:H/UI:R/S:C/C:L/I:L/A:H"
+  },
+  "cwe": [
+    "CWE-20"
+  ],
+  "affected": {
+    "ecosystem": "npm",
+    "package": "qs",
+    "range": {
+      "type": "lte",
+      "version": "5.23.31"
+    }
+  },
+  "fix": {
+    "recommended_version": "3.24.2"
+  },
+  "summary": "Synthetic vulnerability in qs (npm) allowing SQLi under certain conditions.",
+  "details": {
+    "description": "This record is synthetic and intended only for testing pipelines (parsing, scoring, reporting).",
+    "references": [
+      {
+        "type": "advisory",
+        "url": "https://example.invalid/advisories/CVE-2025-54661"
+      },
+      {
+        "type": "source",
+        "url": "https://example.invalid/npm/qs"
+      }
+    ]
+  },
+  "labels": {
+    "generated_by": "M365Copilot",
+    "seed": 20260122
+  }
+}
