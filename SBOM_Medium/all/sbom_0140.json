@@ -1,0 +1,105 @@
+{
+  "document_id": "sbom-0140",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "golang",
+      "name": "yaml",
+      "version": "2.16.2",
+      "purl": "pkg:golang/github.com/example/yaml@2.16.2",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-84545",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.4,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:L"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "1.3.38"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pyyaml",
+      "version": "4.24.44",
+      "purl": "pkg:pypi/pyyaml@4.24.44",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "log4j",
+      "version": "2.11.27",
+      "purl": "pkg:maven/com.example/log4j@2.11.27",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-51714",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.6,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:L"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "2.19.30"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "2.17.50",
+      "purl": "pkg:golang/github.com/example/viper@2.17.50",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-65411",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.8,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:L/UI:R/S:U/C:N/I:N/A:L"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "3.23.35"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "requests",
+      "version": "1.22.10",
+      "purl": "pkg:pypi/requests@1.22.10",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-83191",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.8,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:N"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "0.6.49"
+        },
+        {
+          "cve_id": "CVE-2020-40626",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.6,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:L/I:N/A:N"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "4.19.41"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

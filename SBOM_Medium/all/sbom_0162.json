@@ -1,0 +1,79 @@
+{
+  "document_id": "sbom-0162",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "express",
+      "version": "1.19.45",
+      "purl": "pkg:npm/express@1.19.45",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-48093",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.8,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:L"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "2.24.10"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "yaml",
+      "version": "5.2.20",
+      "purl": "pkg:golang/github.com/example/yaml@5.2.20",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-14813",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.2,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:R/S:C/C:N/I:L/A:L"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "2.29.6"
+        },
+        {
+          "cve_id": "CVE-2023-73225",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 3.1,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:H/I:N/A:N"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "4.17.30"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "gson",
+      "version": "1.4.48",
+      "purl": "pkg:maven/com.example/gson@1.4.48",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-97805",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.0,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:N/A:H"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "4.22.37"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

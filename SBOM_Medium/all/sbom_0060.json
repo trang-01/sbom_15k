@@ -1,0 +1,175 @@
+{
+  "document_id": "sbom-0060",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "golang",
+      "name": "cobra",
+      "version": "5.6.23",
+      "purl": "pkg:golang/github.com/example/cobra@5.6.23",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-73163",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.2,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:L"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "0.9.42"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pyyaml",
+      "version": "0.15.40",
+      "purl": "pkg:pypi/pyyaml@0.15.40",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-77959",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.8,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:L"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "4.14.46"
+        },
+        {
+          "cve_id": "CVE-2021-96689",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.4,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "3.24.4"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "webpack",
+      "version": "4.18.14",
+      "purl": "pkg:npm/webpack@4.18.14",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "protobuf",
+      "version": "0.3.14",
+      "purl": "pkg:golang/github.com/example/protobuf@0.3.14",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "guava",
+      "version": "0.29.39",
+      "purl": "pkg:maven/com.example/guava@0.29.39",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-54211",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 3.8,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:L/A:L"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "1.6.38"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "cryptography",
+      "version": "1.7.33",
+      "purl": "pkg:pypi/cryptography@1.7.33",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-91576",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.5,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "2.1.24"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "1.18.30",
+      "purl": "pkg:golang/github.com/example/viper@1.18.30",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-23496",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.8,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:L/UI:N/S:C/C:N/I:L/A:N"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "1.10.22"
+        },
+        {
+          "cve_id": "CVE-2020-86728",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.7,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:H/UI:N/S:C/C:H/I:N/A:L"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "2.26.45"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "log4j",
+      "version": "3.21.12",
+      "purl": "pkg:maven/com.example/log4j@3.21.12",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "4.9.27",
+      "purl": "pkg:maven/com.example/jackson-databind@4.9.27",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-40723",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.7,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:L/I:L/A:H"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "1.24.19"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "jsonwebtoken",
+      "version": "3.16.33",
+      "purl": "pkg:npm/jsonwebtoken@3.16.33",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

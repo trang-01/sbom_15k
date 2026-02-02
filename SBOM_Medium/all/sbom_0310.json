@@ -1,0 +1,165 @@
+{
+  "document_id": "sbom-0310",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "4.6.30",
+      "purl": "pkg:maven/com.example/okhttp@4.6.30",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-76012",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.4,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:L"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "3.25.2"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pyyaml",
+      "version": "0.18.2",
+      "purl": "pkg:pypi/pyyaml@0.18.2",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-45497",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.6,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "4.2.34"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "yaml",
+      "version": "0.8.20",
+      "purl": "pkg:golang/github.com/example/yaml@0.8.20",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-11287",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 0.8,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:L/A:N"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "0.20.30"
+        },
+        {
+          "cve_id": "CVE-2026-31034",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.3,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:H/UI:R/S:U/C:N/I:H/A:H"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "3.15.34"
+        },
+        {
+          "cve_id": "CVE-2025-99902",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.5,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "4.23.26"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "fastapi",
+      "version": "5.16.40",
+      "purl": "pkg:pypi/fastapi@5.16.40",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "axios",
+      "version": "4.27.37",
+      "purl": "pkg:npm/axios@4.27.37",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "urllib3",
+      "version": "4.12.48",
+      "purl": "pkg:pypi/urllib3@4.12.48",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pandas",
+      "version": "3.14.7",
+      "purl": "pkg:pypi/pandas@3.14.7",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "urllib3",
+      "version": "0.1.46",
+      "purl": "pkg:pypi/urllib3@0.1.46",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "chalk",
+      "version": "0.24.2",
+      "purl": "pkg:npm/chalk@0.24.2",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pandas",
+      "version": "3.17.25",
+      "purl": "pkg:pypi/pandas@3.17.25",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-09334",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.3,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "3.16.25"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "0.28.17",
+      "purl": "pkg:maven/com.example/jackson-databind@0.28.17",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "express",
+      "version": "3.26.13",
+      "purl": "pkg:npm/express@3.26.13",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

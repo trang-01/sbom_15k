@@ -1,0 +1,100 @@
+{
+  "document_id": "sbom-0087",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "webpack",
+      "version": "2.0.19",
+      "purl": "pkg:npm/webpack@2.0.19",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-07894",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.8,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:L/A:H"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "1.11.26"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "gson",
+      "version": "1.5.39",
+      "purl": "pkg:maven/com.example/gson@1.5.39",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "protobuf",
+      "version": "5.11.5",
+      "purl": "pkg:golang/github.com/example/protobuf@5.11.5",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-82525",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.9,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:L/UI:N/S:C/C:L/I:H/A:N"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "4.12.25"
+        },
+        {
+          "cve_id": "CVE-2023-31302",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.8,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "2.13.13"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "fastapi",
+      "version": "0.14.45",
+      "purl": "pkg:pypi/fastapi@0.14.45",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-15984",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.7,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "5.26.42"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "grpc",
+      "version": "2.6.12",
+      "purl": "pkg:golang/github.com/example/grpc@2.6.12",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "jinja2",
+      "version": "0.13.27",
+      "purl": "pkg:pypi/jinja2@0.13.27",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "document_id": "sbom-0037",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "pypi",
+      "name": "numpy",
+      "version": "0.5.11",
+      "purl": "pkg:pypi/numpy@0.5.11",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-26290",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.9,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "2.24.34"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "gson",
+      "version": "1.27.40",
+      "purl": "pkg:maven/com.example/gson@1.27.40",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "3.17.27",
+      "purl": "pkg:maven/com.example/okhttp@3.17.27",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-50056",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.1,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:N/I:N/A:L"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "4.6.25"
+        },
+        {
+          "cve_id": "CVE-2024-70804",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.0,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:H/UI:R/S:C/C:N/I:H/A:N"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "3.26.26"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "cobra",
+      "version": "4.5.12",
+      "purl": "pkg:golang/github.com/example/cobra@4.5.12",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-66651",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.5,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:L"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "4.27.46"
+        },
+        {
+          "cve_id": "CVE-2024-40997",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.1,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:C/C:L/I:H/A:L"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "4.19.32"
+        },
+        {
+          "cve_id": "CVE-2020-66768",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.5,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:U/C:H/I:H/A:L"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "1.28.49"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "cobra",
+      "version": "1.12.0",
+      "purl": "pkg:golang/github.com/example/cobra@1.12.0",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pandas",
+      "version": "1.24.16",
+      "purl": "pkg:pypi/pandas@1.24.16",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "1.16.13",
+      "purl": "pkg:maven/com.example/jackson-databind@1.16.13",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pandas",
+      "version": "0.28.1",
+      "purl": "pkg:pypi/pandas@0.28.1",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-46230",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.1,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:H/A:H"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "3.19.30"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "yaml",
+      "version": "4.7.15",
+      "purl": "pkg:golang/github.com/example/yaml@4.7.15",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "cobra",
+      "version": "5.26.14",
+      "purl": "pkg:golang/github.com/example/cobra@5.26.14",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-03516",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.2,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:R/S:C/C:H/I:L/A:N"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "5.9.50"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

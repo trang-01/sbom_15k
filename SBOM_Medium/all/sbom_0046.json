@@ -1,0 +1,70 @@
+{
+  "document_id": "sbom-0046",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "golang",
+      "name": "cobra",
+      "version": "1.20.3",
+      "purl": "pkg:golang/github.com/example/cobra@1.20.3",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-43791",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.3,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:H/UI:R/S:C/C:N/I:N/A:L"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "4.7.21"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "qs",
+      "version": "5.2.45",
+      "purl": "pkg:npm/qs@5.2.45",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "fastapi",
+      "version": "2.27.11",
+      "purl": "pkg:pypi/fastapi@2.27.11",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "axios",
+      "version": "5.29.41",
+      "purl": "pkg:npm/axios@5.29.41",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-88551",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.8,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:H/A:N"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "3.15.14"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "4.2.36",
+      "purl": "pkg:maven/com.example/okhttp@4.2.36",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

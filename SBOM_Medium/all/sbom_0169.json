@@ -1,0 +1,56 @@
+{
+  "document_id": "sbom-0169",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "pypi",
+      "name": "numpy",
+      "version": "0.10.48",
+      "purl": "pkg:pypi/numpy@0.10.48",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-98132",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.1,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:L/I:N/A:N"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "5.5.15"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "5.18.35",
+      "purl": "pkg:maven/com.example/jackson-databind@5.18.35",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lodash",
+      "version": "1.20.30",
+      "purl": "pkg:npm/lodash@1.20.30",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-69568",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.5,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "5.14.23"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

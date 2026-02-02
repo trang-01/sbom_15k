@@ -1,0 +1,86 @@
+{
+  "document_id": "sbom-0048",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "qs",
+      "version": "0.26.14",
+      "purl": "pkg:npm/qs@0.26.14",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-63022",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.8,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:N"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "0.12.42"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-io",
+      "version": "3.11.43",
+      "purl": "pkg:maven/com.example/commons-io@3.11.43",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "log4j",
+      "version": "5.7.0",
+      "purl": "pkg:maven/com.example/log4j@5.7.0",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-84711",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.4,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:H/UI:N/S:U/C:L/I:H/A:N"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "3.23.46"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "qs",
+      "version": "5.6.7",
+      "purl": "pkg:npm/qs@5.6.7",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-34244",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.7,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:H"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "3.21.28"
+        },
+        {
+          "cve_id": "CVE-2023-61079",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.6,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:N/A:N"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "4.14.38"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

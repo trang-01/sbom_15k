@@ -1,0 +1,156 @@
+{
+  "document_id": "sbom-0218",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "commons-io",
+      "version": "3.9.27",
+      "purl": "pkg:maven/com.example/commons-io@3.9.27",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-24175",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.2,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "5.5.26"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "2.17.20",
+      "purl": "pkg:maven/com.example/jackson-databind@2.17.20",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "jinja2",
+      "version": "2.15.30",
+      "purl": "pkg:pypi/jinja2@2.15.30",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-57481",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.4,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "3.20.14"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "gin",
+      "version": "4.26.17",
+      "purl": "pkg:golang/github.com/example/gin@4.26.17",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-19031",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.6,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:H/A:H"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "5.22.6"
+        },
+        {
+          "cve_id": "CVE-2024-16672",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.7,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:H"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "1.6.38"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "chi",
+      "version": "4.8.15",
+      "purl": "pkg:golang/github.com/example/chi@4.8.15",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pyyaml",
+      "version": "4.9.15",
+      "purl": "pkg:pypi/pyyaml@4.9.15",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "log4j",
+      "version": "4.20.36",
+      "purl": "pkg:maven/com.example/log4j@4.20.36",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "gin",
+      "version": "5.11.23",
+      "purl": "pkg:golang/github.com/example/gin@5.11.23",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-50971",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.4,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:N/I:L/A:N"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "4.16.50"
+        },
+        {
+          "cve_id": "CVE-2020-36166",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.8,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:L/UI:R/S:U/C:H/I:N/A:N"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "5.19.23"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "requests",
+      "version": "4.11.5",
+      "purl": "pkg:pypi/requests@4.11.5",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-95292",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.2,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:L/I:H/A:H"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "1.16.41"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

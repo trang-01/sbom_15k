@@ -1,0 +1,218 @@
+{
+  "document_id": "sbom-0182",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "minimist",
+      "version": "4.0.0",
+      "purl": "pkg:npm/minimist@4.0.0",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-45200",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.2,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:L/A:L"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "4.8.36"
+        },
+        {
+          "cve_id": "CVE-2020-29496",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.4,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "5.9.21"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-lang3",
+      "version": "4.25.42",
+      "purl": "pkg:maven/com.example/commons-lang3@4.25.42",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lodash",
+      "version": "1.13.30",
+      "purl": "pkg:npm/lodash@1.13.30",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-37161",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.2,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "0.8.22"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "0.27.45",
+      "purl": "pkg:npm/react@0.27.45",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-80386",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 2.0,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:C/C:N/I:L/A:N"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "3.18.40"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "fastapi",
+      "version": "0.3.1",
+      "purl": "pkg:pypi/fastapi@0.3.1",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-77119",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.5,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:C/C:N/I:L/A:L"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "5.25.19"
+        },
+        {
+          "cve_id": "CVE-2024-10665",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.1,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:L"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "5.25.20"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "minimist",
+      "version": "4.9.29",
+      "purl": "pkg:npm/minimist@4.9.29",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "jsonwebtoken",
+      "version": "3.6.39",
+      "purl": "pkg:npm/jsonwebtoken@3.6.39",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-49142",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.0,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:L"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "5.0.5"
+        },
+        {
+          "cve_id": "CVE-2020-23886",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.6,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "4.1.39"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "jinja2",
+      "version": "5.14.28",
+      "purl": "pkg:pypi/jinja2@5.14.28",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lodash",
+      "version": "5.13.29",
+      "purl": "pkg:npm/lodash@5.13.29",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "jsonwebtoken",
+      "version": "5.13.41",
+      "purl": "pkg:npm/jsonwebtoken@5.13.41",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "1.0.14",
+      "purl": "pkg:maven/com.example/okhttp@1.0.14",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-24996",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.4,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:H"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "2.16.19"
+        },
+        {
+          "cve_id": "CVE-2024-18371",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.9,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:L"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "4.16.12"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "cobra",
+      "version": "0.8.24",
+      "purl": "pkg:golang/github.com/example/cobra@0.8.24",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "jinja2",
+      "version": "2.22.2",
+      "purl": "pkg:pypi/jinja2@2.22.2",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

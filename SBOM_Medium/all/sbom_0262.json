@@ -1,0 +1,98 @@
+{
+  "document_id": "sbom-0262",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "gson",
+      "version": "1.24.22",
+      "purl": "pkg:maven/com.example/gson@1.24.22",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-96851",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.8,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:L/A:N"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "5.27.31"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "express",
+      "version": "2.4.12",
+      "purl": "pkg:npm/express@2.4.12",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-92251",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.0,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:H"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "3.19.0"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "chalk",
+      "version": "5.5.27",
+      "purl": "pkg:npm/chalk@5.5.27",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-70788",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.5,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:N/I:L/A:H"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "2.16.5"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "fastapi",
+      "version": "2.19.26",
+      "purl": "pkg:pypi/fastapi@2.19.26",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-67435",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.5,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:H/UI:R/S:C/C:N/I:L/A:N"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "0.21.18"
+        },
+        {
+          "cve_id": "CVE-2020-38022",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.5,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "3.2.35"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

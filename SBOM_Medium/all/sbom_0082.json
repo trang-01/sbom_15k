@@ -1,0 +1,156 @@
+{
+  "document_id": "sbom-0082",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "pypi",
+      "name": "django",
+      "version": "4.24.12",
+      "purl": "pkg:pypi/django@4.24.12",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-63991",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.8,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:N"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "5.12.40"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "minimist",
+      "version": "4.1.14",
+      "purl": "pkg:npm/minimist@4.1.14",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "5.13.37",
+      "purl": "pkg:maven/com.example/okhttp@5.13.37",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "grpc",
+      "version": "5.0.16",
+      "purl": "pkg:golang/github.com/example/grpc@5.0.16",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "toml",
+      "version": "5.27.28",
+      "purl": "pkg:golang/github.com/example/toml@5.27.28",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "gson",
+      "version": "3.9.1",
+      "purl": "pkg:maven/com.example/gson@3.9.1",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "webpack",
+      "version": "2.15.31",
+      "purl": "pkg:npm/webpack@2.15.31",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "0.11.4",
+      "purl": "pkg:golang/github.com/example/viper@0.11.4",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "fastapi",
+      "version": "4.23.42",
+      "purl": "pkg:pypi/fastapi@4.23.42",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "1.0.37",
+      "purl": "pkg:golang/github.com/example/viper@1.0.37",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-03160",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.6,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:N/I:H/A:L"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "3.18.21"
+        },
+        {
+          "cve_id": "CVE-2020-33231",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.9,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "0.18.33"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "jinja2",
+      "version": "5.3.18",
+      "purl": "pkg:pypi/jinja2@5.3.18",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-14215",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.6,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:N"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "1.4.42"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "1.30.40",
+      "purl": "pkg:golang/github.com/example/viper@1.30.40",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "guava",
+      "version": "1.26.7",
+      "purl": "pkg:maven/com.example/guava@1.26.7",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "5.24.41",
+      "purl": "pkg:maven/com.example/okhttp@5.24.41",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

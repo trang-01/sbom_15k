@@ -1,0 +1,79 @@
+{
+  "document_id": "sbom-0112",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "log4j",
+      "version": "2.24.0",
+      "purl": "pkg:maven/com.example/log4j@2.24.0",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-01304",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.6,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:N/A:H"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "4.22.47"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pyyaml",
+      "version": "5.28.10",
+      "purl": "pkg:pypi/pyyaml@5.28.10",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-64416",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.5,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:H"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "2.22.13"
+        },
+        {
+          "cve_id": "CVE-2024-97750",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.0,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:L/A:N"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "2.20.35"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lodash",
+      "version": "2.7.42",
+      "purl": "pkg:npm/lodash@2.7.42",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-11990",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.6,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:L/UI:N/S:C/C:L/I:N/A:H"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "3.28.13"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

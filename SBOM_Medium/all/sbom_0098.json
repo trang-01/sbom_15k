@@ -1,0 +1,67 @@
+{
+  "document_id": "sbom-0098",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "guava",
+      "version": "2.14.31",
+      "purl": "pkg:maven/com.example/guava@2.14.31",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-73959",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.4,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:C/C:L/I:H/A:H"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "2.7.30"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "5.2.36",
+      "purl": "pkg:maven/com.example/okhttp@5.2.36",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-01673",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.5,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:H"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "1.9.7"
+        },
+        {
+          "cve_id": "CVE-2023-82979",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.1,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:L/I:N/A:L"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "3.24.14"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "express",
+      "version": "3.11.38",
+      "purl": "pkg:npm/express@3.11.38",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "document_id": "sbom-0232",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "golang",
+      "name": "toml",
+      "version": "3.20.35",
+      "purl": "pkg:golang/github.com/example/toml@3.20.35",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-04083",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.5,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "0.24.38"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "gson",
+      "version": "5.18.27",
+      "purl": "pkg:maven/com.example/gson@5.18.27",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "minimist",
+      "version": "3.8.9",
+      "purl": "pkg:npm/minimist@3.8.9",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-64391",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.5,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:N/A:N"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "5.7.42"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "5.2.42",
+      "purl": "pkg:maven/com.example/okhttp@5.2.42",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-80211",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.6,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:H"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "1.0.28"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

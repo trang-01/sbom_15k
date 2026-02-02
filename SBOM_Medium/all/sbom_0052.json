@@ -1,0 +1,129 @@
+{
+  "document_id": "sbom-0052",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "spring-core",
+      "version": "0.4.20",
+      "purl": "pkg:maven/com.example/spring-core@0.4.20",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-28949",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.5,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:H/A:N"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "5.5.9"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pandas",
+      "version": "1.17.4",
+      "purl": "pkg:pypi/pandas@1.17.4",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "cryptography",
+      "version": "4.18.22",
+      "purl": "pkg:pypi/cryptography@4.18.22",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "2.20.45",
+      "purl": "pkg:maven/com.example/okhttp@2.20.45",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "protobuf",
+      "version": "4.3.20",
+      "purl": "pkg:golang/github.com/example/protobuf@4.3.20",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "yaml",
+      "version": "1.3.39",
+      "purl": "pkg:golang/github.com/example/yaml@1.3.39",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lodash",
+      "version": "5.4.47",
+      "purl": "pkg:npm/lodash@5.4.47",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-89176",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.9,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "3.25.41"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "express",
+      "version": "5.13.50",
+      "purl": "pkg:npm/express@5.13.50",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-09723",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.7,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:C/C:N/I:H/A:H"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "2.14.46"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "cobra",
+      "version": "2.2.10",
+      "purl": "pkg:golang/github.com/example/cobra@2.2.10",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-54160",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.1,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:L"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "4.1.45"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "0.27.18",
+      "purl": "pkg:maven/com.example/okhttp@0.27.18",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

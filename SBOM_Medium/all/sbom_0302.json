@@ -1,0 +1,83 @@
+{
+  "document_id": "sbom-0302",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "pypi",
+      "name": "flask",
+      "version": "5.29.19",
+      "purl": "pkg:pypi/flask@5.29.19",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-01375",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.5,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "0.9.7"
+        },
+        {
+          "cve_id": "CVE-2022-12470",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.8,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:N/I:L/A:H"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "0.6.27"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "chi",
+      "version": "2.4.27",
+      "purl": "pkg:golang/github.com/example/chi@2.4.27",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "log4j",
+      "version": "2.10.17",
+      "purl": "pkg:maven/com.example/log4j@2.10.17",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "flask",
+      "version": "4.29.22",
+      "purl": "pkg:pypi/flask@4.29.22",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-io",
+      "version": "0.5.32",
+      "purl": "pkg:maven/com.example/commons-io@0.5.32",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "2.17.4",
+      "purl": "pkg:maven/com.example/jackson-databind@2.17.4",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "cobra",
+      "version": "3.29.24",
+      "purl": "pkg:golang/github.com/example/cobra@3.29.24",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

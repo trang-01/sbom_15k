@@ -1,0 +1,180 @@
+{
+  "document_id": "sbom-0180",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "chalk",
+      "version": "4.25.19",
+      "purl": "pkg:npm/chalk@4.25.19",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-87093",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.6,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:L/I:N/A:L"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "2.5.1"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "2.20.36",
+      "purl": "pkg:npm/react@2.20.36",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "minimist",
+      "version": "3.3.23",
+      "purl": "pkg:npm/minimist@3.3.23",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-18302",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.3,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "2.24.16"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "cryptography",
+      "version": "3.21.2",
+      "purl": "pkg:pypi/cryptography@3.21.2",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-42940",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.7,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:N"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "0.4.6"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "numpy",
+      "version": "0.8.30",
+      "purl": "pkg:pypi/numpy@0.8.30",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-55391",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.0,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:H/I:L/A:H"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "0.18.50"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "fastapi",
+      "version": "4.16.29",
+      "purl": "pkg:pypi/fastapi@4.16.29",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-21343",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.7,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:C/C:L/I:N/A:N"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "2.5.29"
+        },
+        {
+          "cve_id": "CVE-2022-13678",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.8,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:L"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "2.0.6"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "cryptography",
+      "version": "3.25.6",
+      "purl": "pkg:pypi/cryptography@3.25.6",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-57617",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.0,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:H/UI:N/S:U/C:H/I:L/A:N"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "5.25.16"
+        },
+        {
+          "cve_id": "CVE-2026-70251",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.3,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:C/C:L/I:H/A:H"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "5.30.15"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "cobra",
+      "version": "0.12.7",
+      "purl": "pkg:golang/github.com/example/cobra@0.12.7",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-46356",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.5,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:L/UI:R/S:C/C:L/I:H/A:H"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "2.29.12"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "webpack",
+      "version": "3.19.13",
+      "purl": "pkg:npm/webpack@3.19.13",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "document_id": "sbom-0114",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "pypi",
+      "name": "cryptography",
+      "version": "4.17.33",
+      "purl": "pkg:pypi/cryptography@4.17.33",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-17788",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.7,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:H/UI:R/S:C/C:L/I:N/A:H"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "3.16.35"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "qs",
+      "version": "0.23.49",
+      "purl": "pkg:npm/qs@0.23.49",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-29174",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 3.8,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:R/S:U/C:H/I:L/A:N"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "1.5.21"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "minimist",
+      "version": "1.11.15",
+      "purl": "pkg:npm/minimist@1.11.15",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "2.14.16",
+      "purl": "pkg:maven/com.example/okhttp@2.14.16",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-28426",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.6,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:L/I:H/A:H"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "1.23.48"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "flask",
+      "version": "4.6.19",
+      "purl": "pkg:pypi/flask@4.6.19",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "2.20.34",
+      "purl": "pkg:npm/react@2.20.34",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-93065",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.5,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:L"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "0.7.39"
+        },
+        {
+          "cve_id": "CVE-2026-71371",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.1,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "2.13.21"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "cryptography",
+      "version": "2.17.2",
+      "purl": "pkg:pypi/cryptography@2.17.2",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "flask",
+      "version": "3.27.32",
+      "purl": "pkg:pypi/flask@3.27.32",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-52216",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.0,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "5.4.27"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "guava",
+      "version": "5.16.30",
+      "purl": "pkg:maven/com.example/guava@5.16.30",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-58495",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.0,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:H/UI:R/S:U/C:H/I:N/A:N"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "0.30.15"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "2.10.44",
+      "purl": "pkg:maven/com.example/jackson-databind@2.10.44",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-90498",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.1,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:L/I:N/A:H"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "0.16.41"
+        },
+        {
+          "cve_id": "CVE-2022-66542",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.8,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:L/A:H"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "2.12.40"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "document_id": "sbom-0264",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "log4j",
+      "version": "4.14.22",
+      "purl": "pkg:maven/com.example/log4j@4.14.22",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-11456",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.7,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:L/I:L/A:N"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "4.17.9"
+        },
+        {
+          "cve_id": "CVE-2026-27191",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.2,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:H"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "4.6.42"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "django",
+      "version": "0.0.7",
+      "purl": "pkg:pypi/django@0.0.7",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "chalk",
+      "version": "0.22.4",
+      "purl": "pkg:npm/chalk@0.22.4",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-22619",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.9,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:C/C:L/I:H/A:N"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "4.20.34"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "5.19.26",
+      "purl": "pkg:npm/react@5.19.26",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-54886",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.0,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "2.21.36"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "requests",
+      "version": "2.3.23",
+      "purl": "pkg:pypi/requests@2.3.23",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "protobuf",
+      "version": "1.28.19",
+      "purl": "pkg:golang/github.com/example/protobuf@1.28.19",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-70609",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.6,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:R/S:C/C:L/I:N/A:H"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "0.28.6"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pyyaml",
+      "version": "0.28.21",
+      "purl": "pkg:pypi/pyyaml@0.28.21",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "5.29.42",
+      "purl": "pkg:golang/github.com/example/viper@5.29.42",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-76641",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.9,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:H/UI:R/S:C/C:N/I:N/A:L"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "2.2.43"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "numpy",
+      "version": "3.2.19",
+      "purl": "pkg:pypi/numpy@3.2.19",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "requests",
+      "version": "3.5.23",
+      "purl": "pkg:pypi/requests@3.5.23",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "gson",
+      "version": "2.19.39",
+      "purl": "pkg:maven/com.example/gson@2.19.39",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pyyaml",
+      "version": "0.18.9",
+      "purl": "pkg:pypi/pyyaml@0.18.9",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-60723",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.5,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:N/A:N"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "1.18.18"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

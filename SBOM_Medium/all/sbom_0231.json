@@ -1,0 +1,135 @@
+{
+  "document_id": "sbom-0231",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "lodash",
+      "version": "0.7.10",
+      "purl": "pkg:npm/lodash@0.7.10",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-79142",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.8,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:L"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "0.13.25"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "4.6.46",
+      "purl": "pkg:golang/github.com/example/viper@4.6.46",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "3.15.5",
+      "purl": "pkg:maven/com.example/jackson-databind@3.15.5",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "3.19.24",
+      "purl": "pkg:maven/com.example/jackson-databind@3.19.24",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "grpc",
+      "version": "0.15.48",
+      "purl": "pkg:golang/github.com/example/grpc@0.15.48",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "fastapi",
+      "version": "2.18.3",
+      "purl": "pkg:pypi/fastapi@2.18.3",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "toml",
+      "version": "0.1.34",
+      "purl": "pkg:golang/github.com/example/toml@0.1.34",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "webpack",
+      "version": "0.6.32",
+      "purl": "pkg:npm/webpack@0.6.32",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "grpc",
+      "version": "2.9.49",
+      "purl": "pkg:golang/github.com/example/grpc@2.9.49",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "chi",
+      "version": "3.24.6",
+      "purl": "pkg:golang/github.com/example/chi@3.24.6",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-61474",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.3,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "0.18.44"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "cryptography",
+      "version": "5.8.48",
+      "purl": "pkg:pypi/cryptography@5.8.48",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-49218",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.6,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:H/A:N"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "4.26.36"
+        },
+        {
+          "cve_id": "CVE-2022-02257",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 3.9,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "0.24.18"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "document_id": "sbom-0118",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "commons-io",
+      "version": "0.2.8",
+      "purl": "pkg:maven/com.example/commons-io@0.2.8",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-52896",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.9,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "1.19.26"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "3.1.49",
+      "purl": "pkg:golang/github.com/example/viper@3.1.49",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "express",
+      "version": "3.20.14",
+      "purl": "pkg:npm/express@3.20.14",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "chalk",
+      "version": "1.6.15",
+      "purl": "pkg:npm/chalk@1.6.15",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "cryptography",
+      "version": "1.13.47",
+      "purl": "pkg:pypi/cryptography@1.13.47",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-87981",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 2.6,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:H/UI:R/S:U/C:N/I:L/A:H"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "3.10.1"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "protobuf",
+      "version": "0.30.22",
+      "purl": "pkg:golang/github.com/example/protobuf@0.30.22",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

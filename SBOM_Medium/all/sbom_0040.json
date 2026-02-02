@@ -1,0 +1,168 @@
+{
+  "document_id": "sbom-0040",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "2.25.22",
+      "purl": "pkg:maven/com.example/okhttp@2.25.22",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-90586",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.3,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:L/UI:R/S:U/C:N/I:L/A:H"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "2.20.6"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "5.26.7",
+      "purl": "pkg:npm/react@5.26.7",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pandas",
+      "version": "1.24.26",
+      "purl": "pkg:pypi/pandas@1.24.26",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-34499",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.5,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "3.12.15"
+        },
+        {
+          "cve_id": "CVE-2023-44269",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.8,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:L"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "1.11.9"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "numpy",
+      "version": "2.18.9",
+      "purl": "pkg:pypi/numpy@2.18.9",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-63782",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.5,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:L/A:L"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "2.24.39"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "gin",
+      "version": "2.14.22",
+      "purl": "pkg:golang/github.com/example/gin@2.14.22",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-38550",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.7,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "5.18.10"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "chalk",
+      "version": "1.0.17",
+      "purl": "pkg:npm/chalk@1.0.17",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-81287",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.4,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:L"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "2.25.2"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "4.30.32",
+      "purl": "pkg:npm/react@4.30.32",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "5.0.23",
+      "purl": "pkg:golang/github.com/example/viper@5.0.23",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-77986",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.2,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:H/UI:N/S:C/C:L/I:N/A:L"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "5.29.20"
+        },
+        {
+          "cve_id": "CVE-2025-30418",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.4,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:H/UI:R/S:C/C:H/I:N/A:H"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "4.26.35"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "jsonwebtoken",
+      "version": "1.5.47",
+      "purl": "pkg:npm/jsonwebtoken@1.5.47",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

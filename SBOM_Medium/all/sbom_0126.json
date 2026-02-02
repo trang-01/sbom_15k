@@ -1,0 +1,198 @@
+{
+  "document_id": "sbom-0126",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "pypi",
+      "name": "numpy",
+      "version": "3.23.34",
+      "purl": "pkg:pypi/numpy@3.23.34",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-32884",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 1.4,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:N/I:N/A:N"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "0.13.25"
+        },
+        {
+          "cve_id": "CVE-2021-82283",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.7,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "1.14.5"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pandas",
+      "version": "2.5.40",
+      "purl": "pkg:pypi/pandas@2.5.40",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-82742",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 0.3,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:L/I:N/A:N"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "4.4.48"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "express",
+      "version": "0.15.39",
+      "purl": "pkg:npm/express@0.15.39",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-83253",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.6,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:N"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "4.6.10"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "django",
+      "version": "3.20.25",
+      "purl": "pkg:pypi/django@3.20.25",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-20210",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.1,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:L"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "4.21.22"
+        },
+        {
+          "cve_id": "CVE-2023-72710",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.2,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:N/A:N"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "1.1.31"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "express",
+      "version": "1.2.40",
+      "purl": "pkg:npm/express@1.2.40",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "0.12.11",
+      "purl": "pkg:golang/github.com/example/viper@0.12.11",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-05566",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.9,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:L/I:N/A:L"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "1.11.27"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "axios",
+      "version": "3.19.11",
+      "purl": "pkg:npm/axios@3.19.11",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "django",
+      "version": "0.19.42",
+      "purl": "pkg:pypi/django@0.19.42",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-48984",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.3,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:H"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "5.22.45"
+        },
+        {
+          "cve_id": "CVE-2025-24912",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.8,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:L"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "3.8.16"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "debug",
+      "version": "3.25.13",
+      "purl": "pkg:npm/debug@3.25.13",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "requests",
+      "version": "0.5.49",
+      "purl": "pkg:pypi/requests@0.5.49",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-41945",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.9,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:H/A:N"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "1.15.40"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

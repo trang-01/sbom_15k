@@ -1,0 +1,152 @@
+{
+  "document_id": "sbom-0025",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "log4j",
+      "version": "3.7.28",
+      "purl": "pkg:maven/com.example/log4j@3.7.28",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-21880",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.6,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:H/UI:N/S:U/C:L/I:N/A:H"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "4.20.39"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "yaml",
+      "version": "0.22.23",
+      "purl": "pkg:golang/github.com/example/yaml@0.22.23",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-49884",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.3,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:L/UI:R/S:C/C:N/I:N/A:N"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "0.2.36"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "log4j",
+      "version": "0.12.15",
+      "purl": "pkg:maven/com.example/log4j@0.12.15",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-09947",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.8,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "2.1.32"
+        },
+        {
+          "cve_id": "CVE-2025-51596",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.4,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:U/C:N/I:N/A:H"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "5.10.50"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-io",
+      "version": "0.23.28",
+      "purl": "pkg:maven/com.example/commons-io@0.23.28",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "cobra",
+      "version": "2.12.46",
+      "purl": "pkg:golang/github.com/example/cobra@2.12.46",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "0.29.44",
+      "purl": "pkg:maven/com.example/jackson-databind@0.29.44",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-io",
+      "version": "4.27.31",
+      "purl": "pkg:maven/com.example/commons-io@4.27.31",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-67855",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.9,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "1.2.18"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "axios",
+      "version": "5.16.0",
+      "purl": "pkg:npm/axios@5.16.0",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "cobra",
+      "version": "2.21.12",
+      "purl": "pkg:golang/github.com/example/cobra@2.21.12",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-56192",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.7,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:H/UI:R/S:C/C:L/I:N/A:L"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "4.0.28"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "flask",
+      "version": "1.3.9",
+      "purl": "pkg:pypi/flask@1.3.9",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

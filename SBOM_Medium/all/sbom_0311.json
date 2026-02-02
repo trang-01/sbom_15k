@@ -1,0 +1,93 @@
+{
+  "document_id": "sbom-0311",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "pypi",
+      "name": "fastapi",
+      "version": "1.15.37",
+      "purl": "pkg:pypi/fastapi@1.15.37",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-59244",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.1,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:L/I:L/A:L"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "2.3.42"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "django",
+      "version": "3.5.17",
+      "purl": "pkg:pypi/django@3.5.17",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lodash",
+      "version": "2.25.9",
+      "purl": "pkg:npm/lodash@2.25.9",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-27859",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 2.8,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:H"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "5.26.3"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "guava",
+      "version": "3.24.19",
+      "purl": "pkg:maven/com.example/guava@3.24.19",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "spring-core",
+      "version": "2.13.11",
+      "purl": "pkg:maven/com.example/spring-core@2.13.11",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-47784",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.2,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:H/UI:R/S:U/C:N/I:H/A:N"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "2.7.49"
+        },
+        {
+          "cve_id": "CVE-2024-77371",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.7,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:L"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "0.21.3"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

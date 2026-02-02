@@ -1,0 +1,85 @@
+{
+  "document_id": "sbom-0064",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "qs",
+      "version": "5.26.9",
+      "purl": "pkg:npm/qs@5.26.9",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-74300",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.0,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:H/UI:R/S:U/C:N/I:L/A:N"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "0.6.4"
+        },
+        {
+          "cve_id": "CVE-2022-70037",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.1,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "5.24.39"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "numpy",
+      "version": "3.24.43",
+      "purl": "pkg:pypi/numpy@3.24.43",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "cobra",
+      "version": "2.2.22",
+      "purl": "pkg:golang/github.com/example/cobra@2.2.22",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "log4j",
+      "version": "2.28.27",
+      "purl": "pkg:maven/com.example/log4j@2.28.27",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-61366",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.8,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:H"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "4.7.20"
+        },
+        {
+          "cve_id": "CVE-2025-40003",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.4,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:N/I:N/A:L"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "4.13.28"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

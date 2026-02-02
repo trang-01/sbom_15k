@@ -1,0 +1,122 @@
+{
+  "document_id": "sbom-0274",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "golang",
+      "name": "chi",
+      "version": "2.6.11",
+      "purl": "pkg:golang/github.com/example/chi@2.6.11",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-57448",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.9,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:L/A:H"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "4.16.30"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "debug",
+      "version": "3.25.0",
+      "purl": "pkg:npm/debug@3.25.0",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "4.14.0",
+      "purl": "pkg:maven/com.example/jackson-databind@4.14.0",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "0.24.38",
+      "purl": "pkg:maven/com.example/jackson-databind@0.24.38",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "5.3.39",
+      "purl": "pkg:golang/github.com/example/viper@5.3.39",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-20434",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.2,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:N/A:N"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "5.19.37"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "gson",
+      "version": "1.7.35",
+      "purl": "pkg:maven/com.example/gson@1.7.35",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-16453",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.4,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:L/UI:R/S:C/C:L/I:N/A:H"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "1.16.10"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "webpack",
+      "version": "1.28.28",
+      "purl": "pkg:npm/webpack@1.28.28",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-95988",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.0,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:L/UI:R/S:C/C:H/I:N/A:L"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "4.24.38"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "3.6.12",
+      "purl": "pkg:maven/com.example/jackson-databind@3.6.12",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "toml",
+      "version": "0.13.40",
+      "purl": "pkg:golang/github.com/example/toml@0.13.40",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

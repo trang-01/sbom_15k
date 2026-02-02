@@ -1,0 +1,67 @@
+{
+  "document_id": "sbom-0157",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "4.9.18",
+      "purl": "pkg:maven/com.example/jackson-databind@4.9.18",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-75910",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.9,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:H/A:N"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "2.28.23"
+        },
+        {
+          "cve_id": "CVE-2025-79850",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.7,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "1.8.2"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "3.7.47",
+      "purl": "pkg:maven/com.example/okhttp@3.7.47",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-63352",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.9,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:L/A:N"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "2.16.46"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "toml",
+      "version": "4.28.26",
+      "purl": "pkg:golang/github.com/example/toml@4.28.26",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

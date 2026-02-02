@@ -1,0 +1,110 @@
+{
+  "document_id": "sbom-0138",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "commons-lang3",
+      "version": "0.2.34",
+      "purl": "pkg:maven/com.example/commons-lang3@0.2.34",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-66688",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.9,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:H"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "5.10.33"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "log4j",
+      "version": "4.22.37",
+      "purl": "pkg:maven/com.example/log4j@4.22.37",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-lang3",
+      "version": "2.10.24",
+      "purl": "pkg:maven/com.example/commons-lang3@2.10.24",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "3.3.8",
+      "purl": "pkg:maven/com.example/jackson-databind@3.3.8",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "cobra",
+      "version": "5.26.17",
+      "purl": "pkg:golang/github.com/example/cobra@5.26.17",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "toml",
+      "version": "4.7.24",
+      "purl": "pkg:golang/github.com/example/toml@4.7.24",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-93434",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.6,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:L"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "1.1.48"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pandas",
+      "version": "1.17.18",
+      "purl": "pkg:pypi/pandas@1.17.18",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-74851",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 1.1,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "2.7.6"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "cobra",
+      "version": "4.12.26",
+      "purl": "pkg:golang/github.com/example/cobra@4.12.26",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "log4j",
+      "version": "0.9.31",
+      "purl": "pkg:maven/com.example/log4j@0.9.31",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

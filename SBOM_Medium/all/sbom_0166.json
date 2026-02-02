@@ -1,0 +1,142 @@
+{
+  "document_id": "sbom-0166",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "qs",
+      "version": "5.24.26",
+      "purl": "pkg:npm/qs@5.24.26",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-93526",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.2,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:L/A:N"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "5.2.44"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-lang3",
+      "version": "5.5.27",
+      "purl": "pkg:maven/com.example/commons-lang3@5.5.27",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-41403",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.3,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:L/I:L/A:L"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "1.24.12"
+        },
+        {
+          "cve_id": "CVE-2020-91371",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.7,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:H"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "5.4.18"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pandas",
+      "version": "4.29.28",
+      "purl": "pkg:pypi/pandas@4.29.28",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-84423",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.5,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:H"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "2.14.13"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "cryptography",
+      "version": "4.0.45",
+      "purl": "pkg:pypi/cryptography@4.0.45",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-48849",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.6,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:H"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "1.2.35"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "urllib3",
+      "version": "0.5.37",
+      "purl": "pkg:pypi/urllib3@0.5.37",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-99204",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 1.7,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:L/A:N"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "2.1.39"
+        },
+        {
+          "cve_id": "CVE-2023-12073",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.5,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:L/UI:R/S:C/C:H/I:L/A:L"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "4.10.3"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "fastapi",
+      "version": "3.30.39",
+      "purl": "pkg:pypi/fastapi@3.30.39",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "urllib3",
+      "version": "4.11.17",
+      "purl": "pkg:pypi/urllib3@4.11.17",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

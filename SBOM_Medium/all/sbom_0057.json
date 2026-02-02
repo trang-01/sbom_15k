@@ -1,0 +1,237 @@
+{
+  "document_id": "sbom-0057",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "golang",
+      "name": "cobra",
+      "version": "5.19.13",
+      "purl": "pkg:golang/github.com/example/cobra@5.19.13",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-17098",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.6,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "4.5.31"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-io",
+      "version": "1.10.11",
+      "purl": "pkg:maven/com.example/commons-io@1.10.11",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-74990",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.0,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "5.25.9"
+        },
+        {
+          "cve_id": "CVE-2025-50412",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.0,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "3.21.48"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "qs",
+      "version": "4.11.38",
+      "purl": "pkg:npm/qs@4.11.38",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "protobuf",
+      "version": "3.13.31",
+      "purl": "pkg:golang/github.com/example/protobuf@3.13.31",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "chalk",
+      "version": "3.9.50",
+      "purl": "pkg:npm/chalk@3.9.50",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-io",
+      "version": "4.3.48",
+      "purl": "pkg:maven/com.example/commons-io@4.3.48",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "gin",
+      "version": "0.11.32",
+      "purl": "pkg:golang/github.com/example/gin@0.11.32",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-49789",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.5,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:C/C:H/I:N/A:N"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "3.28.48"
+        },
+        {
+          "cve_id": "CVE-2021-68520",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.3,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:H"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "0.5.25"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pandas",
+      "version": "1.18.31",
+      "purl": "pkg:pypi/pandas@1.18.31",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-lang3",
+      "version": "2.7.34",
+      "purl": "pkg:maven/com.example/commons-lang3@2.7.34",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "urllib3",
+      "version": "4.18.28",
+      "purl": "pkg:pypi/urllib3@4.18.28",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "yaml",
+      "version": "3.22.0",
+      "purl": "pkg:golang/github.com/example/yaml@3.22.0",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-36896",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.0,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:H"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "0.28.25"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-io",
+      "version": "5.11.44",
+      "purl": "pkg:maven/com.example/commons-io@5.11.44",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-62112",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.0,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:U/C:N/I:N/A:H"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "5.16.44"
+        },
+        {
+          "cve_id": "CVE-2023-14937",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.0,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:N/I:L/A:N"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "4.2.28"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "cobra",
+      "version": "3.16.12",
+      "purl": "pkg:golang/github.com/example/cobra@3.16.12",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-78698",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.8,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:L/UI:R/S:C/C:N/I:N/A:N"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "1.2.49"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lodash",
+      "version": "3.21.35",
+      "purl": "pkg:npm/lodash@3.21.35",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-85648",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.1,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:H/UI:N/S:U/C:H/I:L/A:H"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "5.30.15"
+        },
+        {
+          "cve_id": "CVE-2025-13430",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.4,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:C/C:N/I:L/A:H"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "3.27.50"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

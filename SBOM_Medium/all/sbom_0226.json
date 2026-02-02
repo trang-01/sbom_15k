@@ -1,0 +1,160 @@
+{
+  "document_id": "sbom-0226",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "golang",
+      "name": "protobuf",
+      "version": "4.26.4",
+      "purl": "pkg:golang/github.com/example/protobuf@4.26.4",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-34309",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.9,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:C/C:L/I:H/A:L"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "2.14.12"
+        },
+        {
+          "cve_id": "CVE-2024-74568",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.8,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:L/I:N/A:L"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "1.2.6"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "qs",
+      "version": "5.1.39",
+      "purl": "pkg:npm/qs@5.1.39",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-86470",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.7,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "3.20.38"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "express",
+      "version": "3.24.12",
+      "purl": "pkg:npm/express@3.24.12",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "2.6.2",
+      "purl": "pkg:golang/github.com/example/viper@2.6.2",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-30382",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.3,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:H/I:L/A:L"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "1.13.13"
+        },
+        {
+          "cve_id": "CVE-2022-25402",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.2,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:H"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "5.16.30"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "gin",
+      "version": "1.0.5",
+      "purl": "pkg:golang/github.com/example/gin@1.0.5",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "2.0.36",
+      "purl": "pkg:golang/github.com/example/viper@2.0.36",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-97790",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.1,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:N/A:L"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "4.12.43"
+        },
+        {
+          "cve_id": "CVE-2021-03111",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.1,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:H/UI:N/S:C/C:L/I:H/A:L"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "4.15.39"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "guava",
+      "version": "4.27.41",
+      "purl": "pkg:maven/com.example/guava@4.27.41",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-83723",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.7,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:L/UI:R/S:C/C:L/I:N/A:L"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "0.20.2"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "jsonwebtoken",
+      "version": "2.19.38",
+      "purl": "pkg:npm/jsonwebtoken@2.19.38",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

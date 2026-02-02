@@ -1,0 +1,96 @@
+{
+  "document_id": "sbom-0283",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "commons-lang3",
+      "version": "4.11.1",
+      "purl": "pkg:maven/com.example/commons-lang3@4.11.1",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-30900",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.1,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:R/S:C/C:H/I:L/A:H"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "1.3.24"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "guava",
+      "version": "0.19.11",
+      "purl": "pkg:maven/com.example/guava@0.19.11",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "0.17.38",
+      "purl": "pkg:npm/react@0.17.38",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "chi",
+      "version": "0.27.46",
+      "purl": "pkg:golang/github.com/example/chi@0.27.46",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-29464",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.4,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:N"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "4.3.47"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "urllib3",
+      "version": "1.1.41",
+      "purl": "pkg:pypi/urllib3@1.1.41",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "log4j",
+      "version": "5.2.40",
+      "purl": "pkg:maven/com.example/log4j@5.2.40",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "log4j",
+      "version": "5.0.42",
+      "purl": "pkg:maven/com.example/log4j@5.0.42",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-96063",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.4,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "2.26.15"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

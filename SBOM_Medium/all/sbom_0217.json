@@ -1,0 +1,100 @@
+{
+  "document_id": "sbom-0217",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "pypi",
+      "name": "jinja2",
+      "version": "0.1.33",
+      "purl": "pkg:pypi/jinja2@0.1.33",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-83079",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.6,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:H/A:N"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "2.19.13"
+        },
+        {
+          "cve_id": "CVE-2026-80714",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.0,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:C/C:N/I:L/A:H"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "5.18.36"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "chi",
+      "version": "4.16.46",
+      "purl": "pkg:golang/github.com/example/chi@4.16.46",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-91592",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.2,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:L/UI:R/S:C/C:N/I:L/A:L"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "3.0.17"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "toml",
+      "version": "4.19.10",
+      "purl": "pkg:golang/github.com/example/toml@4.19.10",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-95619",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.8,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:H"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "0.13.46"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "cryptography",
+      "version": "3.30.2",
+      "purl": "pkg:pypi/cryptography@3.30.2",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "yaml",
+      "version": "4.10.38",
+      "purl": "pkg:golang/github.com/example/yaml@4.10.38",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "guava",
+      "version": "2.17.21",
+      "purl": "pkg:maven/com.example/guava@2.17.21",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

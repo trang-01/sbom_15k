@@ -1,0 +1,70 @@
+{
+  "document_id": "sbom-0204",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "golang",
+      "name": "chi",
+      "version": "0.6.39",
+      "purl": "pkg:golang/github.com/example/chi@0.6.39",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-66693",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.3,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "4.2.17"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "1.8.38",
+      "purl": "pkg:npm/react@1.8.38",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "2.24.24",
+      "purl": "pkg:golang/github.com/example/viper@2.24.24",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lodash",
+      "version": "2.26.8",
+      "purl": "pkg:npm/lodash@2.26.8",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "debug",
+      "version": "1.9.32",
+      "purl": "pkg:npm/debug@1.9.32",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-65450",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.0,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:L"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "3.25.48"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

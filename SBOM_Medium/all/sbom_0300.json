@@ -1,0 +1,244 @@
+{
+  "document_id": "sbom-0300",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "debug",
+      "version": "4.15.48",
+      "purl": "pkg:npm/debug@4.15.48",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-99470",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.9,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:N/I:L/A:L"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "0.24.20"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "express",
+      "version": "1.0.22",
+      "purl": "pkg:npm/express@1.0.22",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "cryptography",
+      "version": "0.19.14",
+      "purl": "pkg:pypi/cryptography@0.19.14",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-58148",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.8,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:C/C:L/I:H/A:N"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "0.22.37"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "express",
+      "version": "1.29.34",
+      "purl": "pkg:npm/express@1.29.34",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-lang3",
+      "version": "4.2.34",
+      "purl": "pkg:maven/com.example/commons-lang3@4.2.34",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-92584",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.6,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:N/I:L/A:L"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "5.10.3"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pyyaml",
+      "version": "2.28.3",
+      "purl": "pkg:pypi/pyyaml@2.28.3",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-33129",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.0,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:H/UI:N/S:C/C:H/I:L/A:N"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "5.7.1"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-lang3",
+      "version": "3.0.24",
+      "purl": "pkg:maven/com.example/commons-lang3@3.0.24",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-61938",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.2,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:H/A:N"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "1.20.33"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "guava",
+      "version": "3.26.30",
+      "purl": "pkg:maven/com.example/guava@3.26.30",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "express",
+      "version": "1.15.24",
+      "purl": "pkg:npm/express@1.15.24",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-15669",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 0.7,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "5.9.9"
+        },
+        {
+          "cve_id": "CVE-2023-92716",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.9,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:L/A:L"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "1.10.28"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "chi",
+      "version": "5.16.20",
+      "purl": "pkg:golang/github.com/example/chi@5.16.20",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-13414",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.2,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:H"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "5.19.11"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "django",
+      "version": "1.23.10",
+      "purl": "pkg:pypi/django@1.23.10",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-94430",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.1,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:N"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "4.14.15"
+        },
+        {
+          "cve_id": "CVE-2024-43519",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.1,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:H/UI:R/S:U/C:L/I:L/A:H"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "0.15.42"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "grpc",
+      "version": "1.6.27",
+      "purl": "pkg:golang/github.com/example/grpc@1.6.27",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-56815",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.3,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:H/A:H"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "4.30.33"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "1.17.3",
+      "purl": "pkg:npm/react@1.17.3",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-65131",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 2.1,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:N/A:L"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "5.1.27"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

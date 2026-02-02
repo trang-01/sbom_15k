@@ -1,0 +1,77 @@
+{
+  "document_id": "sbom-0152",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "pypi",
+      "name": "requests",
+      "version": "0.8.18",
+      "purl": "pkg:pypi/requests@0.8.18",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-39957",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.5,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "1.27.25"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "jsonwebtoken",
+      "version": "4.11.50",
+      "purl": "pkg:npm/jsonwebtoken@4.11.50",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "urllib3",
+      "version": "4.17.43",
+      "purl": "pkg:pypi/urllib3@4.17.43",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pyyaml",
+      "version": "5.19.1",
+      "purl": "pkg:pypi/pyyaml@5.19.1",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "express",
+      "version": "2.23.44",
+      "purl": "pkg:npm/express@2.23.44",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-56143",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.0,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "2.26.10"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "toml",
+      "version": "0.2.13",
+      "purl": "pkg:golang/github.com/example/toml@0.2.13",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

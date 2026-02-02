@@ -1,0 +1,124 @@
+{
+  "document_id": "sbom-0277",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "debug",
+      "version": "3.4.40",
+      "purl": "pkg:npm/debug@3.4.40",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-48277",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.1,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:H/UI:R/S:U/C:N/I:H/A:H"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "5.8.3"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "log4j",
+      "version": "5.8.38",
+      "purl": "pkg:maven/com.example/log4j@5.8.38",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "cobra",
+      "version": "0.14.21",
+      "purl": "pkg:golang/github.com/example/cobra@0.14.21",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pyyaml",
+      "version": "1.27.33",
+      "purl": "pkg:pypi/pyyaml@1.27.33",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-59758",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.2,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:L"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "2.26.29"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "gin",
+      "version": "5.3.36",
+      "purl": "pkg:golang/github.com/example/gin@5.3.36",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "fastapi",
+      "version": "3.23.10",
+      "purl": "pkg:pypi/fastapi@3.23.10",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pandas",
+      "version": "3.8.14",
+      "purl": "pkg:pypi/pandas@3.8.14",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "jinja2",
+      "version": "1.15.18",
+      "purl": "pkg:pypi/jinja2@1.15.18",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "django",
+      "version": "4.29.46",
+      "purl": "pkg:pypi/django@4.29.46",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "fastapi",
+      "version": "0.8.39",
+      "purl": "pkg:pypi/fastapi@0.8.39",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-41763",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.9,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:L/A:H"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "2.25.35"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "grpc",
+      "version": "0.11.38",
+      "purl": "pkg:golang/github.com/example/grpc@0.11.38",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

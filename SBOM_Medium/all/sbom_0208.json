@@ -1,0 +1,123 @@
+{
+  "document_id": "sbom-0208",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "webpack",
+      "version": "0.12.27",
+      "purl": "pkg:npm/webpack@0.12.27",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-30223",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 2.7,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:L/I:H/A:N"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "0.30.50"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-io",
+      "version": "2.2.19",
+      "purl": "pkg:maven/com.example/commons-io@2.2.19",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "0.10.38",
+      "purl": "pkg:golang/github.com/example/viper@0.10.38",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-21538",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 0.3,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:U/C:H/I:L/A:H"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "3.0.31"
+        },
+        {
+          "cve_id": "CVE-2026-88679",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.3,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:H/UI:R/S:U/C:L/I:H/A:L"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "5.15.5"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "gson",
+      "version": "0.24.20",
+      "purl": "pkg:maven/com.example/gson@0.24.20",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "chalk",
+      "version": "3.9.26",
+      "purl": "pkg:npm/chalk@3.9.26",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "axios",
+      "version": "1.10.32",
+      "purl": "pkg:npm/axios@1.10.32",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "0.14.43",
+      "purl": "pkg:maven/com.example/okhttp@0.14.43",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "0.5.41",
+      "purl": "pkg:npm/react@0.5.41",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "cryptography",
+      "version": "0.27.31",
+      "purl": "pkg:pypi/cryptography@0.27.31",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "axios",
+      "version": "2.7.25",
+      "purl": "pkg:npm/axios@2.7.25",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "django",
+      "version": "2.15.38",
+      "purl": "pkg:pypi/django@2.15.38",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "document_id": "sbom-0148",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "1.23.46",
+      "purl": "pkg:maven/com.example/jackson-databind@1.23.46",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-24664",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.7,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:H/A:H"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "0.22.36"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "5.12.43",
+      "purl": "pkg:maven/com.example/okhttp@5.12.43",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "cryptography",
+      "version": "5.13.27",
+      "purl": "pkg:pypi/cryptography@5.13.27",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-io",
+      "version": "5.7.39",
+      "purl": "pkg:maven/com.example/commons-io@5.7.39",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-53729",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.4,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "3.24.49"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-lang3",
+      "version": "5.5.28",
+      "purl": "pkg:maven/com.example/commons-lang3@5.5.28",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-80149",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.6,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "3.16.28"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "axios",
+      "version": "4.25.20",
+      "purl": "pkg:npm/axios@4.25.20",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "grpc",
+      "version": "2.0.39",
+      "purl": "pkg:golang/github.com/example/grpc@2.0.39",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "yaml",
+      "version": "3.0.17",
+      "purl": "pkg:golang/github.com/example/yaml@3.0.17",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

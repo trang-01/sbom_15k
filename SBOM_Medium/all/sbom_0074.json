@@ -1,0 +1,139 @@
+{
+  "document_id": "sbom-0074",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "lodash",
+      "version": "1.19.33",
+      "purl": "pkg:npm/lodash@1.19.33",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-91951",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.4,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:N/A:L"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "1.26.38"
+        },
+        {
+          "cve_id": "CVE-2022-59697",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.6,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "0.26.39"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "3.23.25",
+      "purl": "pkg:maven/com.example/jackson-databind@3.23.25",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-69736",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.2,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "5.17.13"
+        },
+        {
+          "cve_id": "CVE-2026-21703",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.6,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:L/I:N/A:L"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "2.4.37"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "jsonwebtoken",
+      "version": "2.26.40",
+      "purl": "pkg:npm/jsonwebtoken@2.26.40",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "spring-core",
+      "version": "2.7.25",
+      "purl": "pkg:maven/com.example/spring-core@2.7.25",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "3.26.31",
+      "purl": "pkg:maven/com.example/jackson-databind@3.26.31",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "jinja2",
+      "version": "2.17.3",
+      "purl": "pkg:pypi/jinja2@2.17.3",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "qs",
+      "version": "5.9.18",
+      "purl": "pkg:npm/qs@5.9.18",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-84105",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.0,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "0.3.37"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "chalk",
+      "version": "1.12.2",
+      "purl": "pkg:npm/chalk@1.12.2",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "cobra",
+      "version": "4.20.26",
+      "purl": "pkg:golang/github.com/example/cobra@4.20.26",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "toml",
+      "version": "5.8.31",
+      "purl": "pkg:golang/github.com/example/toml@5.8.31",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

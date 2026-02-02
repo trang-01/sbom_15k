@@ -1,0 +1,169 @@
+{
+  "document_id": "sbom-0122",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "pypi",
+      "name": "fastapi",
+      "version": "2.24.18",
+      "purl": "pkg:pypi/fastapi@2.24.18",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-40868",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.4,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:L"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "2.29.17"
+        },
+        {
+          "cve_id": "CVE-2022-81462",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.7,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:L/I:N/A:H"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "4.24.9"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "4.22.28",
+      "purl": "pkg:npm/react@4.22.28",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-10856",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.2,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:L/A:N"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "0.5.41"
+        },
+        {
+          "cve_id": "CVE-2020-18096",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.5,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:N/I:L/A:N"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "5.2.39"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "cryptography",
+      "version": "4.9.15",
+      "purl": "pkg:pypi/cryptography@4.9.15",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "jsonwebtoken",
+      "version": "2.11.35",
+      "purl": "pkg:npm/jsonwebtoken@2.11.35",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-lang3",
+      "version": "2.17.5",
+      "purl": "pkg:maven/com.example/commons-lang3@2.17.5",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "grpc",
+      "version": "2.12.40",
+      "purl": "pkg:golang/github.com/example/grpc@2.12.40",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-24372",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.0,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:N"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "2.13.37"
+        },
+        {
+          "cve_id": "CVE-2025-96884",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.7,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:H/UI:R/S:C/C:H/I:H/A:H"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "5.15.25"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "numpy",
+      "version": "0.15.9",
+      "purl": "pkg:pypi/numpy@0.15.9",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "django",
+      "version": "3.23.25",
+      "purl": "pkg:pypi/django@3.23.25",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "minimist",
+      "version": "2.19.1",
+      "purl": "pkg:npm/minimist@2.19.1",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "requests",
+      "version": "1.15.35",
+      "purl": "pkg:pypi/requests@1.15.35",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "jinja2",
+      "version": "1.7.37",
+      "purl": "pkg:pypi/jinja2@1.7.37",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-60762",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.0,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "3.19.18"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

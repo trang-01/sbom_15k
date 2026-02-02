@@ -1,0 +1,107 @@
+{
+  "document_id": "sbom-0093",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "axios",
+      "version": "0.2.1",
+      "purl": "pkg:npm/axios@0.2.1",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-43438",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.4,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:N/I:N/A:H"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "0.4.7"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "4.5.32",
+      "purl": "pkg:maven/com.example/okhttp@4.5.32",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lodash",
+      "version": "2.26.8",
+      "purl": "pkg:npm/lodash@2.26.8",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-55358",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.7,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:L"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "3.15.28"
+        },
+        {
+          "cve_id": "CVE-2021-74097",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 1.1,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:L"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "1.1.32"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "requests",
+      "version": "1.6.23",
+      "purl": "pkg:pypi/requests@1.6.23",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "toml",
+      "version": "3.25.6",
+      "purl": "pkg:golang/github.com/example/toml@3.25.6",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-io",
+      "version": "0.5.48",
+      "purl": "pkg:maven/com.example/commons-io@0.5.48",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-99956",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.7,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "1.15.13"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "1.30.4",
+      "purl": "pkg:maven/com.example/jackson-databind@1.30.4",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

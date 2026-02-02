@@ -1,0 +1,235 @@
+{
+  "document_id": "sbom-0167",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "commons-lang3",
+      "version": "5.24.48",
+      "purl": "pkg:maven/com.example/commons-lang3@5.24.48",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-17285",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.5,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:L"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "1.25.14"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "axios",
+      "version": "0.8.16",
+      "purl": "pkg:npm/axios@0.8.16",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "jinja2",
+      "version": "2.7.46",
+      "purl": "pkg:pypi/jinja2@2.7.46",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "chi",
+      "version": "2.21.37",
+      "purl": "pkg:golang/github.com/example/chi@2.21.37",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "jinja2",
+      "version": "3.13.49",
+      "purl": "pkg:pypi/jinja2@3.13.49",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "log4j",
+      "version": "1.19.13",
+      "purl": "pkg:maven/com.example/log4j@1.19.13",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-49503",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.3,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "5.28.49"
+        },
+        {
+          "cve_id": "CVE-2021-15444",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.6,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "4.24.44"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "spring-core",
+      "version": "1.2.35",
+      "purl": "pkg:maven/com.example/spring-core@1.2.35",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-55022",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.6,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:N/I:N/A:H"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "0.14.20"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "protobuf",
+      "version": "0.4.30",
+      "purl": "pkg:golang/github.com/example/protobuf@0.4.30",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "cobra",
+      "version": "0.29.50",
+      "purl": "pkg:golang/github.com/example/cobra@0.29.50",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-27030",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.5,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:R/S:C/C:L/I:H/A:H"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "4.1.31"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "cobra",
+      "version": "3.21.16",
+      "purl": "pkg:golang/github.com/example/cobra@3.21.16",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "0.22.48",
+      "purl": "pkg:golang/github.com/example/viper@0.22.48",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-91999",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.9,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:L"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "0.16.47"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "5.24.6",
+      "purl": "pkg:maven/com.example/jackson-databind@5.24.6",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-69247",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.2,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:N"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "5.7.33"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pyyaml",
+      "version": "1.23.4",
+      "purl": "pkg:pypi/pyyaml@1.23.4",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-25335",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.5,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:N/I:N/A:L"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "0.4.28"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "chi",
+      "version": "5.27.48",
+      "purl": "pkg:golang/github.com/example/chi@5.27.48",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-40494",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.8,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:L/A:H"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "2.30.12"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "3.15.50",
+      "purl": "pkg:npm/react@3.15.50",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-30337",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.7,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "4.11.13"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

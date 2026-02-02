@@ -1,0 +1,63 @@
+{
+  "document_id": "sbom-0189",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "spring-core",
+      "version": "2.20.38",
+      "purl": "pkg:maven/com.example/spring-core@2.20.38",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-02129",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.5,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:L"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "0.24.18"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "toml",
+      "version": "2.30.20",
+      "purl": "pkg:golang/github.com/example/toml@2.30.20",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "4.16.43",
+      "purl": "pkg:golang/github.com/example/viper@4.16.43",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-63134",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.3,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:L"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "3.27.14"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "2.19.42",
+      "purl": "pkg:maven/com.example/jackson-databind@2.19.42",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

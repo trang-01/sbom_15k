@@ -1,0 +1,77 @@
+{
+  "document_id": "sbom-0106",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "qs",
+      "version": "0.6.9",
+      "purl": "pkg:npm/qs@0.6.9",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-59776",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.0,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:N/I:H/A:N"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "0.10.33"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "chalk",
+      "version": "3.5.32",
+      "purl": "pkg:npm/chalk@3.5.32",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "guava",
+      "version": "5.27.46",
+      "purl": "pkg:maven/com.example/guava@5.27.46",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-24330",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.8,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:L"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "1.6.27"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "jsonwebtoken",
+      "version": "0.20.2",
+      "purl": "pkg:npm/jsonwebtoken@0.20.2",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "yaml",
+      "version": "4.26.1",
+      "purl": "pkg:golang/github.com/example/yaml@4.26.1",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "yaml",
+      "version": "3.23.37",
+      "purl": "pkg:golang/github.com/example/yaml@3.23.37",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

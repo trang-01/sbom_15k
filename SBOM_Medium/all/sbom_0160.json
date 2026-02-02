@@ -1,0 +1,98 @@
+{
+  "document_id": "sbom-0160",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "pypi",
+      "name": "django",
+      "version": "5.17.26",
+      "purl": "pkg:pypi/django@5.17.26",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-14429",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.9,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:L"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "1.23.50"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "guava",
+      "version": "5.19.37",
+      "purl": "pkg:maven/com.example/guava@5.19.37",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "gson",
+      "version": "5.14.3",
+      "purl": "pkg:maven/com.example/gson@5.14.3",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "log4j",
+      "version": "4.14.27",
+      "purl": "pkg:maven/com.example/log4j@4.14.27",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-42813",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.5,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:H"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "5.24.20"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pandas",
+      "version": "3.30.33",
+      "purl": "pkg:pypi/pandas@3.30.33",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "4.5.13",
+      "purl": "pkg:maven/com.example/okhttp@4.5.13",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "axios",
+      "version": "4.28.45",
+      "purl": "pkg:npm/axios@4.28.45",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "numpy",
+      "version": "4.4.20",
+      "purl": "pkg:pypi/numpy@4.4.20",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "urllib3",
+      "version": "2.2.3",
+      "purl": "pkg:pypi/urllib3@2.2.3",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

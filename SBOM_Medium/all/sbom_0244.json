@@ -1,0 +1,95 @@
+{
+  "document_id": "sbom-0244",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "3.6.17",
+      "purl": "pkg:golang/github.com/example/viper@3.6.17",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-28671",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.2,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:H"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "1.25.21"
+        },
+        {
+          "cve_id": "CVE-2025-33182",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.3,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:C/C:H/I:N/A:N"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "1.17.5"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "jsonwebtoken",
+      "version": "2.6.21",
+      "purl": "pkg:npm/jsonwebtoken@2.6.21",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "minimist",
+      "version": "2.9.27",
+      "purl": "pkg:npm/minimist@2.9.27",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pandas",
+      "version": "0.25.11",
+      "purl": "pkg:pypi/pandas@0.25.11",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "urllib3",
+      "version": "1.10.21",
+      "purl": "pkg:pypi/urllib3@1.10.21",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "yaml",
+      "version": "1.0.9",
+      "purl": "pkg:golang/github.com/example/yaml@1.0.9",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "fastapi",
+      "version": "0.24.23",
+      "purl": "pkg:pypi/fastapi@0.24.23",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-82551",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.8,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:L"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "0.11.2"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

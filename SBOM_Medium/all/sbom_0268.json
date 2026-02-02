@@ -1,0 +1,63 @@
+{
+  "document_id": "sbom-0268",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "5.23.11",
+      "purl": "pkg:npm/react@5.23.11",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-14359",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.6,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:N"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "1.13.19"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "cobra",
+      "version": "5.14.18",
+      "purl": "pkg:golang/github.com/example/cobra@5.14.18",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-34645",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.4,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:L/A:N"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "2.9.9"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "4.29.21",
+      "purl": "pkg:npm/react@4.29.21",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pyyaml",
+      "version": "0.24.50",
+      "purl": "pkg:pypi/pyyaml@0.24.50",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

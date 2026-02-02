@@ -1,0 +1,184 @@
+{
+  "document_id": "sbom-0179",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "pypi",
+      "name": "numpy",
+      "version": "1.4.41",
+      "purl": "pkg:pypi/numpy@1.4.41",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-09092",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.2,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:H/UI:N/S:C/C:L/I:N/A:L"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "5.16.45"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "protobuf",
+      "version": "1.25.33",
+      "purl": "pkg:golang/github.com/example/protobuf@1.25.33",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "toml",
+      "version": "4.9.31",
+      "purl": "pkg:golang/github.com/example/toml@4.9.31",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "jsonwebtoken",
+      "version": "0.11.25",
+      "purl": "pkg:npm/jsonwebtoken@0.11.25",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-14181",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.1,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:H/I:L/A:H"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "2.22.43"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "guava",
+      "version": "1.1.42",
+      "purl": "pkg:maven/com.example/guava@1.1.42",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "guava",
+      "version": "0.20.9",
+      "purl": "pkg:maven/com.example/guava@0.20.9",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "cobra",
+      "version": "0.0.41",
+      "purl": "pkg:golang/github.com/example/cobra@0.0.41",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "log4j",
+      "version": "4.12.1",
+      "purl": "pkg:maven/com.example/log4j@4.12.1",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "4.20.26",
+      "purl": "pkg:maven/com.example/jackson-databind@4.20.26",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-19646",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.2,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:C/C:L/I:N/A:L"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "2.13.29"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lodash",
+      "version": "1.7.17",
+      "purl": "pkg:npm/lodash@1.7.17",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-83001",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.7,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:H/A:L"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "4.22.19"
+        },
+        {
+          "cve_id": "CVE-2023-72353",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.6,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:L/I:N/A:N"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "0.22.1"
+        },
+        {
+          "cve_id": "CVE-2021-17957",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.6,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "2.30.19"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pandas",
+      "version": "5.3.43",
+      "purl": "pkg:pypi/pandas@5.3.43",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-70353",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.2,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:C/C:L/I:N/A:L"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "2.30.2"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "axios",
+      "version": "0.16.33",
+      "purl": "pkg:npm/axios@0.16.33",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "webpack",
+      "version": "1.5.2",
+      "purl": "pkg:npm/webpack@1.5.2",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

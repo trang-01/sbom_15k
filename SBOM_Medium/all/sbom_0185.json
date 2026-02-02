@@ -1,0 +1,100 @@
+{
+  "document_id": "sbom-0185",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "debug",
+      "version": "1.16.50",
+      "purl": "pkg:npm/debug@1.16.50",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-51155",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.2,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:C/C:H/I:L/A:H"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "5.27.29"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "chalk",
+      "version": "3.14.27",
+      "purl": "pkg:npm/chalk@3.14.27",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "cobra",
+      "version": "3.27.10",
+      "purl": "pkg:golang/github.com/example/cobra@3.27.10",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "jsonwebtoken",
+      "version": "1.6.3",
+      "purl": "pkg:npm/jsonwebtoken@1.6.3",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-46323",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.9,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:N"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "1.28.34"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "requests",
+      "version": "2.17.49",
+      "purl": "pkg:pypi/requests@2.17.49",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "log4j",
+      "version": "4.16.12",
+      "purl": "pkg:maven/com.example/log4j@4.16.12",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-76444",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.1,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:H"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "2.6.23"
+        },
+        {
+          "cve_id": "CVE-2021-30505",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.2,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:C/C:N/I:H/A:L"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "2.0.20"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "document_id": "sbom-0062",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "lodash",
+      "version": "1.17.0",
+      "purl": "pkg:npm/lodash@1.17.0",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-67384",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.9,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:N"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "2.0.20"
+        },
+        {
+          "cve_id": "CVE-2021-75865",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.2,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "1.8.30"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "chi",
+      "version": "5.20.9",
+      "purl": "pkg:golang/github.com/example/chi@5.20.9",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-lang3",
+      "version": "0.21.24",
+      "purl": "pkg:maven/com.example/commons-lang3@0.21.24",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-35490",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.2,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "1.20.22"
+        },
+        {
+          "cve_id": "CVE-2025-88906",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.2,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "5.14.24"
+        },
+        {
+          "cve_id": "CVE-2026-75280",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.4,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:H"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "5.11.13"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "5.3.9",
+      "purl": "pkg:golang/github.com/example/viper@5.3.9",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "chalk",
+      "version": "0.5.26",
+      "purl": "pkg:npm/chalk@0.5.26",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "chalk",
+      "version": "5.0.15",
+      "purl": "pkg:npm/chalk@5.0.15",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "2.6.28",
+      "purl": "pkg:golang/github.com/example/viper@2.6.28",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "django",
+      "version": "4.12.12",
+      "purl": "pkg:pypi/django@4.12.12",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "yaml",
+      "version": "4.26.33",
+      "purl": "pkg:golang/github.com/example/yaml@4.26.33",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "gson",
+      "version": "0.9.4",
+      "purl": "pkg:maven/com.example/gson@0.9.4",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "3.20.46",
+      "purl": "pkg:npm/react@3.20.46",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-74247",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.4,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "5.17.40"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "spring-core",
+      "version": "2.16.6",
+      "purl": "pkg:maven/com.example/spring-core@2.16.6",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-98970",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.1,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "5.19.47"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "cryptography",
+      "version": "4.3.25",
+      "purl": "pkg:pypi/cryptography@4.3.25",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "toml",
+      "version": "2.10.32",
+      "purl": "pkg:golang/github.com/example/toml@2.10.32",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "jinja2",
+      "version": "3.30.38",
+      "purl": "pkg:pypi/jinja2@3.30.38",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-09797",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 0.2,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:L/UI:R/S:U/C:H/I:N/A:H"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "4.18.8"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

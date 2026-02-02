@@ -1,0 +1,234 @@
+{
+  "document_id": "sbom-0170",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "golang",
+      "name": "grpc",
+      "version": "1.29.50",
+      "purl": "pkg:golang/github.com/example/grpc@1.29.50",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-04095",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 3.8,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:N"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "3.19.3"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pyyaml",
+      "version": "3.27.37",
+      "purl": "pkg:pypi/pyyaml@3.27.37",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-07325",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.7,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:L/A:H"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "0.22.39"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "urllib3",
+      "version": "5.18.2",
+      "purl": "pkg:pypi/urllib3@5.18.2",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-92629",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.3,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:L"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "0.23.20"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "yaml",
+      "version": "5.1.44",
+      "purl": "pkg:golang/github.com/example/yaml@5.1.44",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-91853",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 3.3,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:H/UI:R/S:C/C:H/I:N/A:H"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "4.26.2"
+        },
+        {
+          "cve_id": "CVE-2020-15950",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.0,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:L/A:N"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "0.7.14"
+        },
+        {
+          "cve_id": "CVE-2022-01189",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.6,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:H"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "5.27.28"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "1.15.21",
+      "purl": "pkg:maven/com.example/okhttp@1.15.21",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "webpack",
+      "version": "1.21.25",
+      "purl": "pkg:npm/webpack@1.21.25",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-99195",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 1.9,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "3.19.1"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "3.19.25",
+      "purl": "pkg:maven/com.example/okhttp@3.19.25",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "0.19.22",
+      "purl": "pkg:maven/com.example/jackson-databind@0.19.22",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-02450",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.9,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:U/C:H/I:L/A:L"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "1.1.12"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "cobra",
+      "version": "2.26.50",
+      "purl": "pkg:golang/github.com/example/cobra@2.26.50",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pandas",
+      "version": "5.29.8",
+      "purl": "pkg:pypi/pandas@5.29.8",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "minimist",
+      "version": "3.10.12",
+      "purl": "pkg:npm/minimist@3.10.12",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-83802",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.9,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "4.9.30"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pandas",
+      "version": "5.6.21",
+      "purl": "pkg:pypi/pandas@5.6.21",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "chalk",
+      "version": "2.7.48",
+      "purl": "pkg:npm/chalk@2.7.48",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-86775",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.3,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:L"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "1.7.4"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "yaml",
+      "version": "0.2.34",
+      "purl": "pkg:golang/github.com/example/yaml@0.2.34",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "5.19.0",
+      "purl": "pkg:npm/react@5.19.0",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

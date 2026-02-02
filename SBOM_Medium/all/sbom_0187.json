@@ -1,0 +1,62 @@
+{
+  "document_id": "sbom-0187",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "pypi",
+      "name": "urllib3",
+      "version": "2.13.19",
+      "purl": "pkg:pypi/urllib3@2.13.19",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-04576",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.9,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:N"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "3.24.14"
+        },
+        {
+          "cve_id": "CVE-2025-28426",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 2.8,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:L"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "2.7.24"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "toml",
+      "version": "4.22.37",
+      "purl": "pkg:golang/github.com/example/toml@4.22.37",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "gin",
+      "version": "1.5.22",
+      "purl": "pkg:golang/github.com/example/gin@1.5.22",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "flask",
+      "version": "1.0.32",
+      "purl": "pkg:pypi/flask@1.0.32",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

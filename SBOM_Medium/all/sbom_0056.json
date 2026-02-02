@@ -1,0 +1,44 @@
+{
+  "document_id": "sbom-0056",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "pypi",
+      "name": "cryptography",
+      "version": "5.11.28",
+      "purl": "pkg:pypi/cryptography@5.11.28",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-48954",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 1.2,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:R/S:U/C:N/I:L/A:L"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "4.11.17"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "numpy",
+      "version": "4.10.28",
+      "purl": "pkg:pypi/numpy@4.10.28",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "yaml",
+      "version": "0.26.47",
+      "purl": "pkg:golang/github.com/example/yaml@0.26.47",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

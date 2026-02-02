@@ -1,0 +1,84 @@
+{
+  "document_id": "sbom-0261",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "golang",
+      "name": "toml",
+      "version": "0.27.34",
+      "purl": "pkg:golang/github.com/example/toml@0.27.34",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-07183",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.9,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:L/I:H/A:N"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "0.28.40"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "4.1.30",
+      "purl": "pkg:golang/github.com/example/viper@4.1.30",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "1.2.2",
+      "purl": "pkg:golang/github.com/example/viper@1.2.2",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "toml",
+      "version": "4.6.0",
+      "purl": "pkg:golang/github.com/example/toml@4.6.0",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "urllib3",
+      "version": "0.0.20",
+      "purl": "pkg:pypi/urllib3@0.0.20",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "flask",
+      "version": "3.23.42",
+      "purl": "pkg:pypi/flask@3.23.42",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "2.14.9",
+      "purl": "pkg:golang/github.com/example/viper@2.14.9",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-03982",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.2,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:N/A:N"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "3.13.38"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

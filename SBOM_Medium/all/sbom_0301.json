@@ -1,0 +1,109 @@
+{
+  "document_id": "sbom-0301",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "express",
+      "version": "5.14.19",
+      "purl": "pkg:npm/express@5.14.19",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-68570",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.8,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:H/UI:R/S:U/C:H/I:H/A:H"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "5.11.18"
+        },
+        {
+          "cve_id": "CVE-2024-98848",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.0,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "1.25.40"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-io",
+      "version": "1.22.50",
+      "purl": "pkg:maven/com.example/commons-io@1.22.50",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "3.19.38",
+      "purl": "pkg:maven/com.example/jackson-databind@3.19.38",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "axios",
+      "version": "3.10.1",
+      "purl": "pkg:npm/axios@3.10.1",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "webpack",
+      "version": "2.18.18",
+      "purl": "pkg:npm/webpack@2.18.18",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "jinja2",
+      "version": "3.26.2",
+      "purl": "pkg:pypi/jinja2@3.26.2",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "fastapi",
+      "version": "2.27.21",
+      "purl": "pkg:pypi/fastapi@2.27.21",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-54313",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.5,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:C/C:H/I:L/A:L"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "0.13.39"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "django",
+      "version": "0.26.16",
+      "purl": "pkg:pypi/django@0.26.16",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "webpack",
+      "version": "0.18.13",
+      "purl": "pkg:npm/webpack@0.18.13",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

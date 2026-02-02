@@ -1,0 +1,79 @@
+{
+  "document_id": "sbom-0183",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "guava",
+      "version": "0.26.2",
+      "purl": "pkg:maven/com.example/guava@0.26.2",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-44690",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.7,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:H/UI:R/S:U/C:N/I:H/A:N"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "0.13.7"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "django",
+      "version": "4.30.24",
+      "purl": "pkg:pypi/django@4.30.24",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "0.13.9",
+      "purl": "pkg:maven/com.example/okhttp@0.13.9",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "django",
+      "version": "3.30.25",
+      "purl": "pkg:pypi/django@3.30.25",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "gin",
+      "version": "0.6.50",
+      "purl": "pkg:golang/github.com/example/gin@0.6.50",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "chi",
+      "version": "4.12.37",
+      "purl": "pkg:golang/github.com/example/chi@4.12.37",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-lang3",
+      "version": "3.3.9",
+      "purl": "pkg:maven/com.example/commons-lang3@3.3.9",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "minimist",
+      "version": "0.10.35",
+      "purl": "pkg:npm/minimist@0.10.35",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

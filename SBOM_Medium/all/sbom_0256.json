@@ -1,0 +1,103 @@
+{
+  "document_id": "sbom-0256",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "golang",
+      "name": "cobra",
+      "version": "1.6.29",
+      "purl": "pkg:golang/github.com/example/cobra@1.6.29",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-46469",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.2,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "3.18.37"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "flask",
+      "version": "3.20.25",
+      "purl": "pkg:pypi/flask@3.20.25",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "minimist",
+      "version": "0.23.4",
+      "purl": "pkg:npm/minimist@0.23.4",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-75853",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.0,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "3.5.46"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "minimist",
+      "version": "2.10.46",
+      "purl": "pkg:npm/minimist@2.10.46",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "2.20.47",
+      "purl": "pkg:maven/com.example/okhttp@2.20.47",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "4.8.12",
+      "purl": "pkg:maven/com.example/okhttp@4.8.12",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-59570",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.6,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "0.20.0"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "cryptography",
+      "version": "0.4.31",
+      "purl": "pkg:pypi/cryptography@0.4.31",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "spring-core",
+      "version": "4.28.47",
+      "purl": "pkg:maven/com.example/spring-core@4.28.47",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

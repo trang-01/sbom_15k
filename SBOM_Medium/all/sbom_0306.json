@@ -1,0 +1,70 @@
+{
+  "document_id": "sbom-0306",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "5.24.3",
+      "purl": "pkg:npm/react@5.24.3",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-32287",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.1,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:N/I:L/A:N"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "3.23.27"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "0.26.8",
+      "purl": "pkg:npm/react@0.26.8",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "log4j",
+      "version": "0.3.42",
+      "purl": "pkg:maven/com.example/log4j@0.3.42",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "jsonwebtoken",
+      "version": "0.30.44",
+      "purl": "pkg:npm/jsonwebtoken@0.30.44",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "2.17.48",
+      "purl": "pkg:golang/github.com/example/viper@2.17.48",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-57249",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.7,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:L/UI:N/S:C/C:H/I:L/A:H"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "1.11.10"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

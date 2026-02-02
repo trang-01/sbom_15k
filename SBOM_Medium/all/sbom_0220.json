@@ -1,0 +1,150 @@
+{
+  "document_id": "sbom-0220",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "0.20.7",
+      "purl": "pkg:golang/github.com/example/viper@0.20.7",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-89491",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 3.1,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:N/I:L/A:N"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "5.6.3"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "qs",
+      "version": "1.19.29",
+      "purl": "pkg:npm/qs@1.19.29",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "fastapi",
+      "version": "2.7.38",
+      "purl": "pkg:pypi/fastapi@2.7.38",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "flask",
+      "version": "5.0.22",
+      "purl": "pkg:pypi/flask@5.0.22",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "4.23.12",
+      "purl": "pkg:golang/github.com/example/viper@4.23.12",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lodash",
+      "version": "1.6.33",
+      "purl": "pkg:npm/lodash@1.6.33",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "guava",
+      "version": "2.29.32",
+      "purl": "pkg:maven/com.example/guava@2.29.32",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "gson",
+      "version": "2.0.25",
+      "purl": "pkg:maven/com.example/gson@2.0.25",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "urllib3",
+      "version": "2.19.9",
+      "purl": "pkg:pypi/urllib3@2.19.9",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-13743",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.2,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:N/I:N/A:N"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "1.4.5"
+        },
+        {
+          "cve_id": "CVE-2026-98480",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.4,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:N/I:L/A:H"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "3.0.16"
+        },
+        {
+          "cve_id": "CVE-2026-03958",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 3.0,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:N"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "3.24.9"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "4.27.0",
+      "purl": "pkg:maven/com.example/okhttp@4.27.0",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-94294",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 10.0,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "4.9.33"
+        },
+        {
+          "cve_id": "CVE-2026-83595",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.5,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:N/I:L/A:N"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "2.5.17"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

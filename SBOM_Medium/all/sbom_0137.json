@@ -1,0 +1,103 @@
+{
+  "document_id": "sbom-0137",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "0.0.0",
+      "purl": "pkg:npm/react@0.0.0",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-03661",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.0,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:H/UI:N/S:C/C:L/I:L/A:N"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "1.5.14"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pandas",
+      "version": "0.3.22",
+      "purl": "pkg:pypi/pandas@0.3.22",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "log4j",
+      "version": "5.30.47",
+      "purl": "pkg:maven/com.example/log4j@5.30.47",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-39793",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.4,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:N"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "1.25.43"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "2.12.24",
+      "purl": "pkg:maven/com.example/okhttp@2.12.24",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "chi",
+      "version": "5.5.36",
+      "purl": "pkg:golang/github.com/example/chi@5.5.36",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "3.4.43",
+      "purl": "pkg:npm/react@3.4.43",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "requests",
+      "version": "1.28.40",
+      "purl": "pkg:pypi/requests@1.28.40",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "express",
+      "version": "5.21.50",
+      "purl": "pkg:npm/express@5.21.50",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-36368",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.1,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "2.14.24"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "document_id": "sbom-0158",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "express",
+      "version": "0.30.5",
+      "purl": "pkg:npm/express@0.30.5",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-23218",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.7,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:N/A:L"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "4.4.28"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "qs",
+      "version": "0.20.29",
+      "purl": "pkg:npm/qs@0.20.29",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "3.27.46",
+      "purl": "pkg:npm/react@3.27.46",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "0.14.40",
+      "purl": "pkg:maven/com.example/okhttp@0.14.40",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-07440",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.5,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:C/C:L/I:H/A:N"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "3.8.11"
+        },
+        {
+          "cve_id": "CVE-2021-52268",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.3,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:N/I:H/A:H"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "5.18.46"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "0.1.16",
+      "purl": "pkg:maven/com.example/jackson-databind@0.1.16",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-08214",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.6,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "3.1.25"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "jsonwebtoken",
+      "version": "3.4.13",
+      "purl": "pkg:npm/jsonwebtoken@3.4.13",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-34851",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.7,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:N/A:N"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "2.7.39"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "toml",
+      "version": "4.7.16",
+      "purl": "pkg:golang/github.com/example/toml@4.7.16",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "4.3.36",
+      "purl": "pkg:maven/com.example/okhttp@4.3.36",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "log4j",
+      "version": "4.18.35",
+      "purl": "pkg:maven/com.example/log4j@4.18.35",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-57113",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.4,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:L"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "1.25.49"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "guava",
+      "version": "3.2.3",
+      "purl": "pkg:maven/com.example/guava@3.2.3",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "webpack",
+      "version": "5.2.12",
+      "purl": "pkg:npm/webpack@5.2.12",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "0.22.8",
+      "purl": "pkg:maven/com.example/jackson-databind@0.22.8",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

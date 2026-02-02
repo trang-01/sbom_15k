@@ -1,0 +1,77 @@
+{
+  "document_id": "sbom-0054",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "commons-io",
+      "version": "5.30.24",
+      "purl": "pkg:maven/com.example/commons-io@5.30.24",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-85908",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.8,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:L/I:H/A:N"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "1.12.46"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "cryptography",
+      "version": "4.0.50",
+      "purl": "pkg:pypi/cryptography@4.0.50",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "4.8.8",
+      "purl": "pkg:golang/github.com/example/viper@4.8.8",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "urllib3",
+      "version": "1.4.11",
+      "purl": "pkg:pypi/urllib3@1.4.11",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "minimist",
+      "version": "0.4.16",
+      "purl": "pkg:npm/minimist@0.4.16",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-14495",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.5,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:H/UI:R/S:U/C:H/I:L/A:L"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "0.13.23"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "5.11.22",
+      "purl": "pkg:maven/com.example/jackson-databind@5.11.22",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

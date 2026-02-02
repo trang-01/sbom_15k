@@ -1,0 +1,63 @@
+{
+  "document_id": "sbom-0235",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "3.1.32",
+      "purl": "pkg:maven/com.example/jackson-databind@3.1.32",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-15654",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.6,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:H"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "3.8.7"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-io",
+      "version": "5.2.36",
+      "purl": "pkg:maven/com.example/commons-io@5.2.36",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-87639",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.1,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:L/UI:R/S:U/C:H/I:L/A:N"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "4.0.3"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "express",
+      "version": "5.22.50",
+      "purl": "pkg:npm/express@5.22.50",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "2.9.7",
+      "purl": "pkg:maven/com.example/jackson-databind@2.9.7",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

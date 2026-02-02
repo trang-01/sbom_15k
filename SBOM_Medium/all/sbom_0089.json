@@ -1,0 +1,107 @@
+{
+  "document_id": "sbom-0089",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "golang",
+      "name": "yaml",
+      "version": "5.26.49",
+      "purl": "pkg:golang/github.com/example/yaml@5.26.49",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-42348",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.4,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:L"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "2.18.7"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "chalk",
+      "version": "3.18.9",
+      "purl": "pkg:npm/chalk@3.18.9",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "axios",
+      "version": "5.16.44",
+      "purl": "pkg:npm/axios@5.16.44",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-74179",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.1,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:N/I:L/A:L"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "4.3.12"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "flask",
+      "version": "4.21.23",
+      "purl": "pkg:pypi/flask@4.21.23",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "2.5.35",
+      "purl": "pkg:npm/react@2.5.35",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-84858",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.0,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:L/A:L"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "4.11.28"
+        },
+        {
+          "cve_id": "CVE-2021-40437",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.0,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:C/C:H/I:L/A:N"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "4.5.48"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "protobuf",
+      "version": "0.28.42",
+      "purl": "pkg:golang/github.com/example/protobuf@0.28.42",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lodash",
+      "version": "1.1.50",
+      "purl": "pkg:npm/lodash@1.1.50",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

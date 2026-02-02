@@ -1,0 +1,104 @@
+{
+  "document_id": "sbom-0200",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "golang",
+      "name": "grpc",
+      "version": "2.8.45",
+      "purl": "pkg:golang/github.com/example/grpc@2.8.45",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-86343",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.8,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:H/A:H"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "0.13.36"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "django",
+      "version": "0.30.36",
+      "purl": "pkg:pypi/django@0.30.36",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-15904",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.3,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:C/C:L/I:H/A:N"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "3.28.0"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "4.0.19",
+      "purl": "pkg:maven/com.example/jackson-databind@4.0.19",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "yaml",
+      "version": "1.11.32",
+      "purl": "pkg:golang/github.com/example/yaml@1.11.32",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-46595",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.0,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:L"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "0.4.43"
+        },
+        {
+          "cve_id": "CVE-2023-80041",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.4,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:C/C:L/I:N/A:N"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "3.11.37"
+        },
+        {
+          "cve_id": "CVE-2023-18534",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.1,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:L"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "3.4.35"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "yaml",
+      "version": "5.26.9",
+      "purl": "pkg:golang/github.com/example/yaml@5.26.9",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

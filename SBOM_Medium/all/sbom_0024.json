@@ -1,0 +1,175 @@
+{
+  "document_id": "sbom-0024",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "pypi",
+      "name": "fastapi",
+      "version": "5.13.42",
+      "purl": "pkg:pypi/fastapi@5.13.42",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-52898",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.3,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "1.19.21"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "toml",
+      "version": "4.10.23",
+      "purl": "pkg:golang/github.com/example/toml@4.10.23",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "5.0.17",
+      "purl": "pkg:npm/react@5.0.17",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-41118",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.8,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:H/UI:R/S:U/C:N/I:N/A:H"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "1.4.37"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "webpack",
+      "version": "3.3.16",
+      "purl": "pkg:npm/webpack@3.3.16",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-89796",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.9,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "5.15.29"
+        },
+        {
+          "cve_id": "CVE-2024-80888",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 2.3,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "1.4.31"
+        },
+        {
+          "cve_id": "CVE-2025-59300",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.3,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:N/A:L"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "4.19.19"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "express",
+      "version": "1.1.21",
+      "purl": "pkg:npm/express@1.1.21",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-08743",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 0.2,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:R/S:C/C:N/I:N/A:L"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "5.20.7"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "spring-core",
+      "version": "3.26.33",
+      "purl": "pkg:maven/com.example/spring-core@3.26.33",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "cryptography",
+      "version": "5.11.25",
+      "purl": "pkg:pypi/cryptography@5.11.25",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "jsonwebtoken",
+      "version": "3.14.7",
+      "purl": "pkg:npm/jsonwebtoken@3.14.7",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-79014",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.6,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "5.20.33"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "jsonwebtoken",
+      "version": "5.9.31",
+      "purl": "pkg:npm/jsonwebtoken@5.9.31",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-72941",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 0.8,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "0.21.3"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "urllib3",
+      "version": "4.26.19",
+      "purl": "pkg:pypi/urllib3@4.26.19",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

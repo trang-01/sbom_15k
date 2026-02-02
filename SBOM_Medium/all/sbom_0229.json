@@ -1,0 +1,143 @@
+{
+  "document_id": "sbom-0229",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "pypi",
+      "name": "flask",
+      "version": "3.0.33",
+      "purl": "pkg:pypi/flask@3.0.33",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-60706",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.9,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "1.30.9"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "2.28.48",
+      "purl": "pkg:golang/github.com/example/viper@2.28.48",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-91706",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.0,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:H/UI:N/S:C/C:H/I:L/A:H"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "0.13.25"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lodash",
+      "version": "5.24.39",
+      "purl": "pkg:npm/lodash@5.24.39",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-89351",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.4,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:C/C:H/I:N/A:L"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "0.5.38"
+        },
+        {
+          "cve_id": "CVE-2023-03324",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.7,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "1.5.33"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "protobuf",
+      "version": "3.7.23",
+      "purl": "pkg:golang/github.com/example/protobuf@3.7.23",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "axios",
+      "version": "4.29.24",
+      "purl": "pkg:npm/axios@4.29.24",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-03589",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.3,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:L/UI:R/S:U/C:L/I:H/A:N"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "5.24.14"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "grpc",
+      "version": "3.19.16",
+      "purl": "pkg:golang/github.com/example/grpc@3.19.16",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-07708",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.1,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "2.21.11"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "grpc",
+      "version": "2.22.20",
+      "purl": "pkg:golang/github.com/example/grpc@2.22.20",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-65947",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.7,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:C/C:L/I:H/A:H"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "3.22.14"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

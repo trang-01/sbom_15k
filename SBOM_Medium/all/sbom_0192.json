@@ -1,0 +1,124 @@
+{
+  "document_id": "sbom-0192",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "golang",
+      "name": "yaml",
+      "version": "0.4.0",
+      "purl": "pkg:golang/github.com/example/yaml@0.4.0",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-79115",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.6,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:N/I:L/A:H"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "4.7.29"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "debug",
+      "version": "5.26.49",
+      "purl": "pkg:npm/debug@5.26.49",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "fastapi",
+      "version": "1.12.11",
+      "purl": "pkg:pypi/fastapi@1.12.11",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "qs",
+      "version": "2.1.48",
+      "purl": "pkg:npm/qs@2.1.48",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "grpc",
+      "version": "0.20.50",
+      "purl": "pkg:golang/github.com/example/grpc@0.20.50",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-95096",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.4,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:N/I:N/A:N"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "5.24.10"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "fastapi",
+      "version": "0.7.37",
+      "purl": "pkg:pypi/fastapi@0.7.37",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "toml",
+      "version": "3.1.14",
+      "purl": "pkg:golang/github.com/example/toml@3.1.14",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-22852",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.5,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:N"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "5.5.3"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "jsonwebtoken",
+      "version": "4.5.46",
+      "purl": "pkg:npm/jsonwebtoken@4.5.46",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "toml",
+      "version": "5.1.14",
+      "purl": "pkg:golang/github.com/example/toml@5.1.14",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "gson",
+      "version": "3.2.43",
+      "purl": "pkg:maven/com.example/gson@3.2.43",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "protobuf",
+      "version": "0.17.33",
+      "purl": "pkg:golang/github.com/example/protobuf@0.17.33",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

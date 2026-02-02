@@ -1,0 +1,70 @@
+{
+  "document_id": "sbom-0115",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "pypi",
+      "name": "pyyaml",
+      "version": "1.19.31",
+      "purl": "pkg:pypi/pyyaml@1.19.31",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-36516",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.7,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:L/I:N/A:L"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "4.16.32"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "guava",
+      "version": "0.20.39",
+      "purl": "pkg:maven/com.example/guava@0.20.39",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "django",
+      "version": "4.30.29",
+      "purl": "pkg:pypi/django@4.30.29",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "guava",
+      "version": "4.5.36",
+      "purl": "pkg:maven/com.example/guava@4.5.36",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-31129",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.4,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:C/C:N/I:L/A:L"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "1.22.46"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "numpy",
+      "version": "3.7.16",
+      "purl": "pkg:pypi/numpy@3.7.16",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

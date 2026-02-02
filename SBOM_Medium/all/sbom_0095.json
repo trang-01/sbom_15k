@@ -1,0 +1,44 @@
+{
+  "document_id": "sbom-0095",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "qs",
+      "version": "0.21.15",
+      "purl": "pkg:npm/qs@0.21.15",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-22791",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 0.8,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:C/C:H/I:L/A:H"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "1.16.34"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "yaml",
+      "version": "1.1.12",
+      "purl": "pkg:golang/github.com/example/yaml@1.1.12",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "log4j",
+      "version": "0.3.29",
+      "purl": "pkg:maven/com.example/log4j@0.3.29",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

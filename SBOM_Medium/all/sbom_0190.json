@@ -1,0 +1,124 @@
+{
+  "document_id": "sbom-0190",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "jsonwebtoken",
+      "version": "3.28.21",
+      "purl": "pkg:npm/jsonwebtoken@3.28.21",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-44955",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.5,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "1.30.31"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "urllib3",
+      "version": "1.27.29",
+      "purl": "pkg:pypi/urllib3@1.27.29",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "minimist",
+      "version": "5.6.39",
+      "purl": "pkg:npm/minimist@5.6.39",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "jsonwebtoken",
+      "version": "1.21.20",
+      "purl": "pkg:npm/jsonwebtoken@1.21.20",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-92464",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.5,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:L/A:H"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "3.29.8"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lodash",
+      "version": "3.1.29",
+      "purl": "pkg:npm/lodash@3.1.29",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "urllib3",
+      "version": "3.9.35",
+      "purl": "pkg:pypi/urllib3@3.9.35",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "gin",
+      "version": "2.22.37",
+      "purl": "pkg:golang/github.com/example/gin@2.22.37",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "minimist",
+      "version": "3.9.46",
+      "purl": "pkg:npm/minimist@3.9.46",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "spring-core",
+      "version": "0.29.36",
+      "purl": "pkg:maven/com.example/spring-core@0.29.36",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-52181",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 3.2,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:H"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "3.23.35"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "cryptography",
+      "version": "2.24.39",
+      "purl": "pkg:pypi/cryptography@2.24.39",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "axios",
+      "version": "5.12.29",
+      "purl": "pkg:npm/axios@5.12.29",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

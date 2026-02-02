@@ -1,0 +1,161 @@
+{
+  "document_id": "sbom-0253",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "log4j",
+      "version": "0.12.31",
+      "purl": "pkg:maven/com.example/log4j@0.12.31",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-34964",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 2.2,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "3.10.4"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "qs",
+      "version": "2.3.37",
+      "purl": "pkg:npm/qs@2.3.37",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-94703",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.3,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "0.26.48"
+        },
+        {
+          "cve_id": "CVE-2022-91153",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.0,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:L/A:N"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "0.28.48"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "debug",
+      "version": "1.15.20",
+      "purl": "pkg:npm/debug@1.15.20",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "0.19.18",
+      "purl": "pkg:npm/react@0.19.18",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-15733",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.5,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:H/UI:R/S:C/C:L/I:N/A:H"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "4.13.14"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "guava",
+      "version": "5.23.2",
+      "purl": "pkg:maven/com.example/guava@5.23.2",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-60718",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.2,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:U/C:L/I:H/A:H"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "2.26.23"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-lang3",
+      "version": "3.25.11",
+      "purl": "pkg:maven/com.example/commons-lang3@3.25.11",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "express",
+      "version": "1.28.28",
+      "purl": "pkg:npm/express@1.28.28",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lodash",
+      "version": "5.1.34",
+      "purl": "pkg:npm/lodash@5.1.34",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "qs",
+      "version": "3.14.50",
+      "purl": "pkg:npm/qs@3.14.50",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "0.17.44",
+      "purl": "pkg:golang/github.com/example/viper@0.17.44",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "grpc",
+      "version": "0.12.48",
+      "purl": "pkg:golang/github.com/example/grpc@0.12.48",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "chi",
+      "version": "4.7.27",
+      "purl": "pkg:golang/github.com/example/chi@4.7.27",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "4.12.36",
+      "purl": "pkg:maven/com.example/jackson-databind@4.12.36",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

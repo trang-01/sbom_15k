@@ -1,0 +1,154 @@
+{
+  "document_id": "sbom-0058",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "lodash",
+      "version": "4.15.17",
+      "purl": "pkg:npm/lodash@4.15.17",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-23963",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.3,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:L"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "4.14.28"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-io",
+      "version": "0.14.5",
+      "purl": "pkg:maven/com.example/commons-io@0.14.5",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-85457",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.7,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:L/I:H/A:N"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "2.15.32"
+        },
+        {
+          "cve_id": "CVE-2020-75639",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.1,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:L"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "3.20.0"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "grpc",
+      "version": "1.8.46",
+      "purl": "pkg:golang/github.com/example/grpc@1.8.46",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "jsonwebtoken",
+      "version": "2.21.40",
+      "purl": "pkg:npm/jsonwebtoken@2.21.40",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-19516",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.3,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:L"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "0.6.14"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "requests",
+      "version": "4.15.19",
+      "purl": "pkg:pypi/requests@4.15.19",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-66785",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.8,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:H"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "5.14.38"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pandas",
+      "version": "3.8.13",
+      "purl": "pkg:pypi/pandas@3.8.13",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-35074",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.8,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:L/A:N"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "1.13.6"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "0.9.16",
+      "purl": "pkg:maven/com.example/okhttp@0.9.16",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-82584",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 0.6,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:L/I:H/A:L"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "3.20.42"
+        },
+        {
+          "cve_id": "CVE-2024-13848",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.0,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:N/I:H/A:H"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "2.23.15"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

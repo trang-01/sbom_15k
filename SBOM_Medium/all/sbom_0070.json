@@ -1,0 +1,84 @@
+{
+  "document_id": "sbom-0070",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "3.10.6",
+      "purl": "pkg:npm/react@3.10.6",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-10192",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.1,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:H/UI:R/S:U/C:L/I:L/A:H"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "3.26.12"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "flask",
+      "version": "2.0.3",
+      "purl": "pkg:pypi/flask@2.0.3",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "cryptography",
+      "version": "1.28.42",
+      "purl": "pkg:pypi/cryptography@1.28.42",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "chalk",
+      "version": "0.10.5",
+      "purl": "pkg:npm/chalk@0.10.5",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-16212",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.4,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "4.30.37"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "flask",
+      "version": "4.1.19",
+      "purl": "pkg:pypi/flask@4.1.19",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "chalk",
+      "version": "1.7.41",
+      "purl": "pkg:npm/chalk@1.7.41",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "django",
+      "version": "2.27.23",
+      "purl": "pkg:pypi/django@2.27.23",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

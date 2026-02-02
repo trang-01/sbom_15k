@@ -1,0 +1,167 @@
+{
+  "document_id": "sbom-0236",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "2.27.8",
+      "purl": "pkg:maven/com.example/okhttp@2.27.8",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-90878",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.8,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:H/I:N/A:L"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "5.19.43"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "numpy",
+      "version": "4.9.3",
+      "purl": "pkg:pypi/numpy@4.9.3",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "3.5.33",
+      "purl": "pkg:golang/github.com/example/viper@3.5.33",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pandas",
+      "version": "4.14.35",
+      "purl": "pkg:pypi/pandas@4.14.35",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-89493",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 2.9,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:H/UI:R/S:U/C:L/I:N/A:H"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "0.5.32"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "spring-core",
+      "version": "1.0.41",
+      "purl": "pkg:maven/com.example/spring-core@1.0.41",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "yaml",
+      "version": "4.24.9",
+      "purl": "pkg:golang/github.com/example/yaml@4.24.9",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-55625",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.7,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "5.8.43"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "0.30.21",
+      "purl": "pkg:golang/github.com/example/viper@0.30.21",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "4.13.35",
+      "purl": "pkg:golang/github.com/example/viper@4.13.35",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-01349",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.4,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "4.10.2"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "jinja2",
+      "version": "1.15.17",
+      "purl": "pkg:pypi/jinja2@1.15.17",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-15466",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.4,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:L"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "2.5.50"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "0.3.5",
+      "purl": "pkg:maven/com.example/okhttp@0.3.5",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "cobra",
+      "version": "2.8.45",
+      "purl": "pkg:golang/github.com/example/cobra@2.8.45",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-84652",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.0,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:H"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "0.18.13"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-lang3",
+      "version": "5.20.11",
+      "purl": "pkg:maven/com.example/commons-lang3@5.20.11",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "document_id": "sbom-0161",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "pypi",
+      "name": "numpy",
+      "version": "3.9.32",
+      "purl": "pkg:pypi/numpy@3.9.32",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-59590",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.4,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:L/UI:N/S:C/C:H/I:L/A:N"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "1.13.2"
+        },
+        {
+          "cve_id": "CVE-2026-14988",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.4,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:N"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "1.0.39"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "jinja2",
+      "version": "0.29.38",
+      "purl": "pkg:pypi/jinja2@0.29.38",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "urllib3",
+      "version": "1.21.5",
+      "purl": "pkg:pypi/urllib3@1.21.5",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-64991",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.3,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "4.18.8"
+        },
+        {
+          "cve_id": "CVE-2025-89808",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.8,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:H"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "2.13.47"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "yaml",
+      "version": "5.20.38",
+      "purl": "pkg:golang/github.com/example/yaml@5.20.38",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-16046",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.1,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:L/I:L/A:H"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "2.19.17"
+        },
+        {
+          "cve_id": "CVE-2023-22993",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.9,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:N"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "5.6.44"
+        },
+        {
+          "cve_id": "CVE-2026-55900",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.8,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:H"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "2.18.16"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "django",
+      "version": "2.5.23",
+      "purl": "pkg:pypi/django@2.5.23",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "cryptography",
+      "version": "5.20.2",
+      "purl": "pkg:pypi/cryptography@5.20.2",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "4.30.2",
+      "purl": "pkg:maven/com.example/jackson-databind@4.30.2",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-87768",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.5,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "1.16.35"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pandas",
+      "version": "0.3.32",
+      "purl": "pkg:pypi/pandas@0.3.32",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lodash",
+      "version": "3.26.35",
+      "purl": "pkg:npm/lodash@3.26.35",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "guava",
+      "version": "1.19.34",
+      "purl": "pkg:maven/com.example/guava@1.19.34",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "qs",
+      "version": "0.14.28",
+      "purl": "pkg:npm/qs@0.14.28",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "yaml",
+      "version": "1.21.49",
+      "purl": "pkg:golang/github.com/example/yaml@1.21.49",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-33492",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.4,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:L/A:H"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "0.0.19"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "django",
+      "version": "0.26.16",
+      "purl": "pkg:pypi/django@0.26.16",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-94345",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.2,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:L/UI:R/S:U/C:N/I:L/A:N"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "1.17.21"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "flask",
+      "version": "0.26.39",
+      "purl": "pkg:pypi/flask@0.26.39",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-68250",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.7,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:L"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "1.10.46"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

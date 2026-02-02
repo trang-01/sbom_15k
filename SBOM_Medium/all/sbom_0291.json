@@ -1,0 +1,181 @@
+{
+  "document_id": "sbom-0291",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "pypi",
+      "name": "numpy",
+      "version": "5.7.7",
+      "purl": "pkg:pypi/numpy@5.7.7",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-59416",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.4,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:L/I:H/A:N"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "4.15.46"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "requests",
+      "version": "5.30.6",
+      "purl": "pkg:pypi/requests@5.30.6",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-80813",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.7,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:L/UI:R/S:C/C:H/I:N/A:H"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "0.26.17"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pandas",
+      "version": "4.24.27",
+      "purl": "pkg:pypi/pandas@4.24.27",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "spring-core",
+      "version": "3.17.7",
+      "purl": "pkg:maven/com.example/spring-core@3.17.7",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-37418",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 1.7,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:L"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "1.2.10"
+        },
+        {
+          "cve_id": "CVE-2020-11872",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.5,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "3.28.28"
+        },
+        {
+          "cve_id": "CVE-2022-56880",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.8,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "4.28.38"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "chi",
+      "version": "1.26.42",
+      "purl": "pkg:golang/github.com/example/chi@1.26.42",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-04978",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.2,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:H/UI:R/S:C/C:H/I:N/A:L"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "4.1.22"
+        },
+        {
+          "cve_id": "CVE-2021-45816",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.8,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:H/A:L"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "5.1.41"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "yaml",
+      "version": "5.5.37",
+      "purl": "pkg:golang/github.com/example/yaml@5.5.37",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "minimist",
+      "version": "4.9.16",
+      "purl": "pkg:npm/minimist@4.9.16",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-32739",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.6,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:H/UI:R/S:U/C:H/I:H/A:H"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "3.15.30"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lodash",
+      "version": "2.17.14",
+      "purl": "pkg:npm/lodash@2.17.14",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lodash",
+      "version": "3.18.47",
+      "purl": "pkg:npm/lodash@3.18.47",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "5.1.49",
+      "purl": "pkg:maven/com.example/jackson-databind@5.1.49",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "yaml",
+      "version": "4.29.30",
+      "purl": "pkg:golang/github.com/example/yaml@4.29.30",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

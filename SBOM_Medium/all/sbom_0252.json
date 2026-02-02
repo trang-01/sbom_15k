@@ -1,0 +1,86 @@
+{
+  "document_id": "sbom-0252",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "pypi",
+      "name": "jinja2",
+      "version": "4.17.38",
+      "purl": "pkg:pypi/jinja2@4.17.38",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-06038",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.2,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "4.10.26"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pyyaml",
+      "version": "4.6.18",
+      "purl": "pkg:pypi/pyyaml@4.6.18",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-64428",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.8,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:H/A:L"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "0.28.16"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "requests",
+      "version": "5.18.26",
+      "purl": "pkg:pypi/requests@5.18.26",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-52572",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.1,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "5.7.4"
+        },
+        {
+          "cve_id": "CVE-2022-85821",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.9,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:L/UI:R/S:C/C:L/I:N/A:N"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "1.19.33"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "debug",
+      "version": "2.14.30",
+      "purl": "pkg:npm/debug@2.14.30",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

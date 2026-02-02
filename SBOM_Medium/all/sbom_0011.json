@@ -1,0 +1,56 @@
+{
+  "document_id": "sbom-0011",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "golang",
+      "name": "chi",
+      "version": "1.16.40",
+      "purl": "pkg:golang/github.com/example/chi@1.16.40",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-53876",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.8,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "4.3.5"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "webpack",
+      "version": "4.15.43",
+      "purl": "pkg:npm/webpack@4.15.43",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-18488",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.9,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "0.25.47"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "cobra",
+      "version": "5.9.49",
+      "purl": "pkg:golang/github.com/example/cobra@5.9.49",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

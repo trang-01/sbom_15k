@@ -1,0 +1,84 @@
+{
+  "document_id": "sbom-0031",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "commons-lang3",
+      "version": "5.7.50",
+      "purl": "pkg:maven/com.example/commons-lang3@5.7.50",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-24248",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.4,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "3.13.10"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "fastapi",
+      "version": "1.20.43",
+      "purl": "pkg:pypi/fastapi@1.20.43",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "guava",
+      "version": "5.13.37",
+      "purl": "pkg:maven/com.example/guava@5.13.37",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-50019",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.0,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "0.5.27"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "4.0.34",
+      "purl": "pkg:maven/com.example/jackson-databind@4.0.34",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "qs",
+      "version": "2.19.48",
+      "purl": "pkg:npm/qs@2.19.48",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "webpack",
+      "version": "4.17.1",
+      "purl": "pkg:npm/webpack@4.17.1",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "3.6.4",
+      "purl": "pkg:npm/react@3.6.4",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

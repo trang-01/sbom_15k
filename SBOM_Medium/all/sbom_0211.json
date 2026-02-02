@@ -1,0 +1,134 @@
+{
+  "document_id": "sbom-0211",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "spring-core",
+      "version": "3.15.7",
+      "purl": "pkg:maven/com.example/spring-core@3.15.7",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-01809",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.9,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:H"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "5.26.12"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "jsonwebtoken",
+      "version": "4.26.36",
+      "purl": "pkg:npm/jsonwebtoken@4.26.36",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-74925",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.7,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:L"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "3.14.4"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "yaml",
+      "version": "0.9.24",
+      "purl": "pkg:golang/github.com/example/yaml@0.9.24",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "protobuf",
+      "version": "1.24.17",
+      "purl": "pkg:golang/github.com/example/protobuf@1.24.17",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-95435",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.6,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:H/UI:R/S:C/C:N/I:N/A:N"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "2.13.11"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "cryptography",
+      "version": "1.4.45",
+      "purl": "pkg:pypi/cryptography@1.4.45",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-88612",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.5,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:H/UI:R/S:U/C:N/I:L/A:H"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "4.9.22"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "spring-core",
+      "version": "0.11.36",
+      "purl": "pkg:maven/com.example/spring-core@0.11.36",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-54131",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.8,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:C/C:L/I:H/A:H"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "3.13.18"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "guava",
+      "version": "5.0.14",
+      "purl": "pkg:maven/com.example/guava@5.0.14",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "fastapi",
+      "version": "1.17.24",
+      "purl": "pkg:pypi/fastapi@1.17.24",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "numpy",
+      "version": "1.15.6",
+      "purl": "pkg:pypi/numpy@1.15.6",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

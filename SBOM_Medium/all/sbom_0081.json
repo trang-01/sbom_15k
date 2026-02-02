@@ -1,0 +1,144 @@
+{
+  "document_id": "sbom-0081",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "pypi",
+      "name": "flask",
+      "version": "4.20.50",
+      "purl": "pkg:pypi/flask@4.20.50",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-96587",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.6,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:L/UI:R/S:C/C:H/I:L/A:L"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "0.15.24"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "grpc",
+      "version": "2.7.50",
+      "purl": "pkg:golang/github.com/example/grpc@2.7.50",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "5.24.20",
+      "purl": "pkg:maven/com.example/okhttp@5.24.20",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "jsonwebtoken",
+      "version": "4.7.6",
+      "purl": "pkg:npm/jsonwebtoken@4.7.6",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "guava",
+      "version": "5.22.41",
+      "purl": "pkg:maven/com.example/guava@5.22.41",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-86226",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.9,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:C/C:L/I:H/A:H"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "4.16.31"
+        },
+        {
+          "cve_id": "CVE-2025-25060",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.8,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:C/C:N/I:H/A:L"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "4.29.17"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "log4j",
+      "version": "4.21.43",
+      "purl": "pkg:maven/com.example/log4j@4.21.43",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "gin",
+      "version": "0.26.8",
+      "purl": "pkg:golang/github.com/example/gin@0.26.8",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "debug",
+      "version": "3.5.19",
+      "purl": "pkg:npm/debug@3.5.19",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "flask",
+      "version": "3.11.26",
+      "purl": "pkg:pypi/flask@3.11.26",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "axios",
+      "version": "1.20.49",
+      "purl": "pkg:npm/axios@1.20.49",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "flask",
+      "version": "5.15.9",
+      "purl": "pkg:pypi/flask@5.15.9",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "toml",
+      "version": "4.22.39",
+      "purl": "pkg:golang/github.com/example/toml@4.22.39",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-io",
+      "version": "1.23.42",
+      "purl": "pkg:maven/com.example/commons-io@1.23.42",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "log4j",
+      "version": "2.2.11",
+      "purl": "pkg:maven/com.example/log4j@2.2.11",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

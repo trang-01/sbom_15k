@@ -1,0 +1,67 @@
+{
+  "document_id": "sbom-0150",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "spring-core",
+      "version": "5.13.21",
+      "purl": "pkg:maven/com.example/spring-core@5.13.21",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-18634",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.2,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:H/UI:R/S:C/C:L/I:L/A:H"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "2.28.13"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "grpc",
+      "version": "1.12.20",
+      "purl": "pkg:golang/github.com/example/grpc@1.12.20",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "qs",
+      "version": "1.23.10",
+      "purl": "pkg:npm/qs@1.23.10",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-55326",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 1.2,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:L"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "2.0.39"
+        },
+        {
+          "cve_id": "CVE-2022-62770",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 1.8,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:H"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "0.17.26"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

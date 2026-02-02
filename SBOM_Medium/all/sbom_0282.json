@@ -1,0 +1,44 @@
+{
+  "document_id": "sbom-0282",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "commons-io",
+      "version": "0.23.2",
+      "purl": "pkg:maven/com.example/commons-io@0.23.2",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-07863",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.8,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:H/UI:N/S:C/C:N/I:H/A:N"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "1.24.0"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "toml",
+      "version": "3.17.42",
+      "purl": "pkg:golang/github.com/example/toml@3.17.42",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "urllib3",
+      "version": "4.29.8",
+      "purl": "pkg:pypi/urllib3@4.29.8",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

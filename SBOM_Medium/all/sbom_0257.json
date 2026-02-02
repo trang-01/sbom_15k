@@ -1,0 +1,179 @@
+{
+  "document_id": "sbom-0257",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "log4j",
+      "version": "0.17.40",
+      "purl": "pkg:maven/com.example/log4j@0.17.40",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-46023",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.4,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "4.16.11"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "cobra",
+      "version": "1.10.33",
+      "purl": "pkg:golang/github.com/example/cobra@1.10.33",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "cryptography",
+      "version": "1.12.18",
+      "purl": "pkg:pypi/cryptography@1.12.18",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "toml",
+      "version": "1.28.32",
+      "purl": "pkg:golang/github.com/example/toml@1.28.32",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "axios",
+      "version": "5.9.30",
+      "purl": "pkg:npm/axios@5.9.30",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "qs",
+      "version": "2.14.13",
+      "purl": "pkg:npm/qs@2.14.13",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-io",
+      "version": "4.17.48",
+      "purl": "pkg:maven/com.example/commons-io@4.17.48",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lodash",
+      "version": "2.6.43",
+      "purl": "pkg:npm/lodash@2.6.43",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "toml",
+      "version": "1.21.25",
+      "purl": "pkg:golang/github.com/example/toml@1.21.25",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "protobuf",
+      "version": "3.5.0",
+      "purl": "pkg:golang/github.com/example/protobuf@3.5.0",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-70867",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.0,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:H"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "0.10.42"
+        },
+        {
+          "cve_id": "CVE-2026-90080",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.4,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:L/I:N/A:H"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "0.20.48"
+        },
+        {
+          "cve_id": "CVE-2023-59201",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.6,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:L/I:N/A:H"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "0.1.22"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "debug",
+      "version": "2.5.17",
+      "purl": "pkg:npm/debug@2.5.17",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "minimist",
+      "version": "5.14.12",
+      "purl": "pkg:npm/minimist@5.14.12",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-27786",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.9,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:R/S:C/C:H/I:L/A:N"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "3.26.50"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "axios",
+      "version": "3.18.26",
+      "purl": "pkg:npm/axios@3.18.26",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-16601",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.2,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:R/S:C/C:H/I:L/A:H"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "4.22.35"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "2.27.13",
+      "purl": "pkg:maven/com.example/okhttp@2.27.13",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "document_id": "sbom-0072",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "jsonwebtoken",
+      "version": "1.30.16",
+      "purl": "pkg:npm/jsonwebtoken@1.30.16",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-27153",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.4,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:L/UI:N/S:C/C:L/I:N/A:N"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "0.28.17"
+        },
+        {
+          "cve_id": "CVE-2022-35512",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.1,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:L/A:H"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "0.5.10"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "qs",
+      "version": "3.9.17",
+      "purl": "pkg:npm/qs@3.9.17",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pyyaml",
+      "version": "5.27.11",
+      "purl": "pkg:pypi/pyyaml@5.27.11",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

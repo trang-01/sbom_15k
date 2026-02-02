@@ -1,0 +1,44 @@
+{
+  "document_id": "sbom-0005",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "golang",
+      "name": "chi",
+      "version": "3.17.25",
+      "purl": "pkg:golang/github.com/example/chi@3.17.25",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-06639",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 2.2,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "4.27.42"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "chi",
+      "version": "3.2.33",
+      "purl": "pkg:golang/github.com/example/chi@3.2.33",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "protobuf",
+      "version": "5.2.47",
+      "purl": "pkg:golang/github.com/example/protobuf@5.2.47",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

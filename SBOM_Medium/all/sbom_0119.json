@@ -1,0 +1,141 @@
+{
+  "document_id": "sbom-0119",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "guava",
+      "version": "2.6.47",
+      "purl": "pkg:maven/com.example/guava@2.6.47",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-94692",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.2,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:N"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "5.20.7"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "5.13.41",
+      "purl": "pkg:npm/react@5.13.41",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "toml",
+      "version": "3.26.36",
+      "purl": "pkg:golang/github.com/example/toml@3.26.36",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-26136",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.2,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:N/A:N"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "3.28.29"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "webpack",
+      "version": "2.25.22",
+      "purl": "pkg:npm/webpack@2.25.22",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "grpc",
+      "version": "1.9.25",
+      "purl": "pkg:golang/github.com/example/grpc@1.9.25",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-30536",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 0.8,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:N"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "2.5.20"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-lang3",
+      "version": "3.17.3",
+      "purl": "pkg:maven/com.example/commons-lang3@3.17.3",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "guava",
+      "version": "5.22.37",
+      "purl": "pkg:maven/com.example/guava@5.22.37",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "debug",
+      "version": "0.30.23",
+      "purl": "pkg:npm/debug@0.30.23",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "protobuf",
+      "version": "2.22.12",
+      "purl": "pkg:golang/github.com/example/protobuf@2.22.12",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-51558",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.2,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:H/UI:R/S:U/C:H/I:L/A:H"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "2.11.15"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "minimist",
+      "version": "2.21.30",
+      "purl": "pkg:npm/minimist@2.21.30",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-84352",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.7,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:L/I:N/A:H"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "1.10.28"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "document_id": "sbom-0210",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "golang",
+      "name": "chi",
+      "version": "5.6.1",
+      "purl": "pkg:golang/github.com/example/chi@5.6.1",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-84345",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.0,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:C/C:L/I:H/A:L"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "0.11.32"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "5.5.47",
+      "purl": "pkg:npm/react@5.5.47",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pandas",
+      "version": "4.16.28",
+      "purl": "pkg:pypi/pandas@4.16.28",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "axios",
+      "version": "5.27.5",
+      "purl": "pkg:npm/axios@5.27.5",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lodash",
+      "version": "1.14.46",
+      "purl": "pkg:npm/lodash@1.14.46",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-36607",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 2.6,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:L/I:N/A:L"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "0.5.36"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "cryptography",
+      "version": "2.27.0",
+      "purl": "pkg:pypi/cryptography@2.27.0",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-84014",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.2,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:L"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "2.24.50"
+        },
+        {
+          "cve_id": "CVE-2022-72485",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.8,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:H"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "1.6.21"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

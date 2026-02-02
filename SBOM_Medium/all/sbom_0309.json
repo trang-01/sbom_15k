@@ -1,0 +1,101 @@
+{
+  "document_id": "sbom-0309",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "commons-lang3",
+      "version": "0.30.13",
+      "purl": "pkg:maven/com.example/commons-lang3@0.30.13",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-83832",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.1,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:H/A:H"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "0.6.23"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "qs",
+      "version": "3.10.18",
+      "purl": "pkg:npm/qs@3.10.18",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "grpc",
+      "version": "0.13.1",
+      "purl": "pkg:golang/github.com/example/grpc@0.13.1",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-36785",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.2,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:L"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "4.11.7"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "qs",
+      "version": "1.9.11",
+      "purl": "pkg:npm/qs@1.9.11",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-82002",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.1,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "2.4.15"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-lang3",
+      "version": "1.0.47",
+      "purl": "pkg:maven/com.example/commons-lang3@1.0.47",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-50520",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.2,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:H"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "5.6.12"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pyyaml",
+      "version": "3.24.20",
+      "purl": "pkg:pypi/pyyaml@3.24.20",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

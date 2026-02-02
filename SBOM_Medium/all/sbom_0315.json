@@ -1,0 +1,213 @@
+{
+  "document_id": "sbom-0315",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "chalk",
+      "version": "5.6.5",
+      "purl": "pkg:npm/chalk@5.6.5",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-24267",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.1,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:H/A:L"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "3.13.3"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "toml",
+      "version": "4.24.22",
+      "purl": "pkg:golang/github.com/example/toml@4.24.22",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "gson",
+      "version": "0.24.12",
+      "purl": "pkg:maven/com.example/gson@0.24.12",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-32901",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.7,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:R/S:C/C:H/I:L/A:N"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "0.30.44"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pyyaml",
+      "version": "2.4.44",
+      "purl": "pkg:pypi/pyyaml@2.4.44",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "guava",
+      "version": "1.8.14",
+      "purl": "pkg:maven/com.example/guava@1.8.14",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lodash",
+      "version": "3.11.19",
+      "purl": "pkg:npm/lodash@3.11.19",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-43472",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.3,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:N"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "1.17.47"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-io",
+      "version": "5.26.35",
+      "purl": "pkg:maven/com.example/commons-io@5.26.35",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-61778",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.0,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:N/A:N"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "3.23.36"
+        },
+        {
+          "cve_id": "CVE-2020-27502",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.7,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:L/I:N/A:L"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "4.16.19"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "1.29.22",
+      "purl": "pkg:maven/com.example/jackson-databind@1.29.22",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "django",
+      "version": "5.26.3",
+      "purl": "pkg:pypi/django@5.26.3",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-89564",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.0,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:R/S:C/C:H/I:N/A:H"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "0.6.0"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-io",
+      "version": "1.20.26",
+      "purl": "pkg:maven/com.example/commons-io@1.20.26",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-05053",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.7,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:L/A:H"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "0.6.12"
+        },
+        {
+          "cve_id": "CVE-2022-39066",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.7,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:H"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "3.6.20"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "flask",
+      "version": "4.28.35",
+      "purl": "pkg:pypi/flask@4.28.35",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-47075",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.3,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "1.29.42"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "django",
+      "version": "4.11.41",
+      "purl": "pkg:pypi/django@4.11.41",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-79601",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.7,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:H"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "1.15.8"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

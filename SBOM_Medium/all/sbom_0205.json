@@ -1,0 +1,246 @@
+{
+  "document_id": "sbom-0205",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "webpack",
+      "version": "1.23.13",
+      "purl": "pkg:npm/webpack@1.23.13",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-52271",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.3,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "1.5.27"
+        },
+        {
+          "cve_id": "CVE-2023-50292",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.2,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:N/I:H/A:L"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "3.28.15"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "spring-core",
+      "version": "5.12.5",
+      "purl": "pkg:maven/com.example/spring-core@5.12.5",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "spring-core",
+      "version": "1.15.17",
+      "purl": "pkg:maven/com.example/spring-core@1.15.17",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-27032",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.8,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "0.22.12"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "qs",
+      "version": "1.17.19",
+      "purl": "pkg:npm/qs@1.17.19",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-10603",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.7,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:L/I:H/A:H"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "2.6.13"
+        },
+        {
+          "cve_id": "CVE-2020-24686",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.1,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "1.13.4"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "log4j",
+      "version": "1.2.19",
+      "purl": "pkg:maven/com.example/log4j@1.2.19",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-32699",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.9,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "5.22.2"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "axios",
+      "version": "4.0.40",
+      "purl": "pkg:npm/axios@4.0.40",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-88831",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 2.8,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:H/UI:R/S:C/C:N/I:L/A:L"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "2.3.2"
+        },
+        {
+          "cve_id": "CVE-2020-75184",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.4,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:L/UI:R/S:C/C:H/I:L/A:H"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "3.22.44"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "express",
+      "version": "5.7.8",
+      "purl": "pkg:npm/express@5.7.8",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-52116",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.2,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "0.10.37"
+        },
+        {
+          "cve_id": "CVE-2023-77325",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.1,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "1.0.21"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pyyaml",
+      "version": "2.25.2",
+      "purl": "pkg:pypi/pyyaml@2.25.2",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pandas",
+      "version": "4.20.36",
+      "purl": "pkg:pypi/pandas@4.20.36",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-89963",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 3.4,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:H/A:H"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "4.9.2"
+        },
+        {
+          "cve_id": "CVE-2023-16363",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.8,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:H/UI:R/S:C/C:H/I:H/A:L"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "4.8.46"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "minimist",
+      "version": "5.0.6",
+      "purl": "pkg:npm/minimist@5.0.6",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "guava",
+      "version": "4.30.10",
+      "purl": "pkg:maven/com.example/guava@4.30.10",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "cryptography",
+      "version": "4.1.4",
+      "purl": "pkg:pypi/cryptography@4.1.4",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-07585",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.3,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:L/A:N"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "3.3.29"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

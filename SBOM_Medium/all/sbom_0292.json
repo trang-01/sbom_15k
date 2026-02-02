@@ -1,0 +1,55 @@
+{
+  "document_id": "sbom-0292",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "webpack",
+      "version": "4.19.40",
+      "purl": "pkg:npm/webpack@4.19.40",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-50549",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.3,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:L/I:L/A:L"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "4.27.22"
+        },
+        {
+          "cve_id": "CVE-2022-11621",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.2,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:H"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "0.10.28"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "debug",
+      "version": "5.6.45",
+      "purl": "pkg:npm/debug@5.6.45",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "express",
+      "version": "5.26.47",
+      "purl": "pkg:npm/express@5.26.47",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

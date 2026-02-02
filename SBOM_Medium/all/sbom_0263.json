@@ -1,0 +1,51 @@
+{
+  "document_id": "sbom-0263",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "axios",
+      "version": "4.23.33",
+      "purl": "pkg:npm/axios@4.23.33",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-81413",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.5,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:R/S:C/C:N/I:L/A:L"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "3.22.50"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-io",
+      "version": "4.23.27",
+      "purl": "pkg:maven/com.example/commons-io@4.23.27",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "chalk",
+      "version": "3.4.49",
+      "purl": "pkg:npm/chalk@3.4.49",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "qs",
+      "version": "5.13.32",
+      "purl": "pkg:npm/qs@5.13.32",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "document_id": "sbom-0061",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "0.25.13",
+      "purl": "pkg:maven/com.example/jackson-databind@0.25.13",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-44895",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.9,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:L"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "3.13.27"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "chalk",
+      "version": "4.7.15",
+      "purl": "pkg:npm/chalk@4.7.15",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "yaml",
+      "version": "4.26.6",
+      "purl": "pkg:golang/github.com/example/yaml@4.26.6",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "1.21.15",
+      "purl": "pkg:npm/react@1.21.15",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "guava",
+      "version": "3.8.28",
+      "purl": "pkg:maven/com.example/guava@3.8.28",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "numpy",
+      "version": "3.13.10",
+      "purl": "pkg:pypi/numpy@3.13.10",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-79779",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.3,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:C/C:L/I:H/A:N"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "3.16.43"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "flask",
+      "version": "3.5.25",
+      "purl": "pkg:pypi/flask@3.5.25",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "grpc",
+      "version": "4.28.11",
+      "purl": "pkg:golang/github.com/example/grpc@4.28.11",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

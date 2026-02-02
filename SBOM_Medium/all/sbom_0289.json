@@ -1,0 +1,163 @@
+{
+  "document_id": "sbom-0289",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "pypi",
+      "name": "jinja2",
+      "version": "3.9.13",
+      "purl": "pkg:pypi/jinja2@3.9.13",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-03110",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.3,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:H"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "5.3.40"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "jsonwebtoken",
+      "version": "1.6.40",
+      "purl": "pkg:npm/jsonwebtoken@1.6.40",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "log4j",
+      "version": "2.4.27",
+      "purl": "pkg:maven/com.example/log4j@2.4.27",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "axios",
+      "version": "5.27.2",
+      "purl": "pkg:npm/axios@5.27.2",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "yaml",
+      "version": "1.30.43",
+      "purl": "pkg:golang/github.com/example/yaml@1.30.43",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-05944",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.2,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:L"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "3.14.24"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "debug",
+      "version": "3.11.50",
+      "purl": "pkg:npm/debug@3.11.50",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "jinja2",
+      "version": "1.28.19",
+      "purl": "pkg:pypi/jinja2@1.28.19",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-24944",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.8,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:L"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "5.14.20"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "fastapi",
+      "version": "2.19.17",
+      "purl": "pkg:pypi/fastapi@2.19.17",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-24926",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.4,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "3.20.41"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "cryptography",
+      "version": "0.24.22",
+      "purl": "pkg:pypi/cryptography@0.24.22",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "toml",
+      "version": "1.16.9",
+      "purl": "pkg:golang/github.com/example/toml@1.16.9",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-92251",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.8,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:H/A:H"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "2.6.13"
+        },
+        {
+          "cve_id": "CVE-2025-94560",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 2.5,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:R/S:U/C:H/I:L/A:N"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "0.20.0"
+        },
+        {
+          "cve_id": "CVE-2023-78682",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.6,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:N/I:L/A:H"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "2.15.29"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

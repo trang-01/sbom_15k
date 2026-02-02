@@ -1,0 +1,148 @@
+{
+  "document_id": "sbom-0129",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "minimist",
+      "version": "1.18.39",
+      "purl": "pkg:npm/minimist@1.18.39",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-81208",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.2,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "5.20.43"
+        },
+        {
+          "cve_id": "CVE-2025-20809",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.4,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "2.26.35"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "numpy",
+      "version": "0.0.26",
+      "purl": "pkg:pypi/numpy@0.0.26",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "chalk",
+      "version": "1.30.21",
+      "purl": "pkg:npm/chalk@1.30.21",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "spring-core",
+      "version": "4.12.18",
+      "purl": "pkg:maven/com.example/spring-core@4.12.18",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-01215",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 3.7,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:N"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "0.15.11"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "grpc",
+      "version": "1.1.25",
+      "purl": "pkg:golang/github.com/example/grpc@1.1.25",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "requests",
+      "version": "1.25.33",
+      "purl": "pkg:pypi/requests@1.25.33",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-89449",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.7,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:N/A:H"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "5.18.40"
+        },
+        {
+          "cve_id": "CVE-2020-72859",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 3.0,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:L/UI:R/S:U/C:H/I:L/A:L"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "2.4.14"
+        },
+        {
+          "cve_id": "CVE-2021-07014",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.8,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "5.26.50"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "express",
+      "version": "5.5.25",
+      "purl": "pkg:npm/express@5.5.25",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-74912",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.3,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:U/C:H/I:N/A:L"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "1.4.11"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "spring-core",
+      "version": "0.27.23",
+      "purl": "pkg:maven/com.example/spring-core@0.27.23",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

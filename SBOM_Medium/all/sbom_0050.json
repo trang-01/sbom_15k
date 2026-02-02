@@ -1,0 +1,105 @@
+{
+  "document_id": "sbom-0050",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "guava",
+      "version": "1.26.2",
+      "purl": "pkg:maven/com.example/guava@1.26.2",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-89765",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.5,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:L"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "4.5.41"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "django",
+      "version": "1.26.20",
+      "purl": "pkg:pypi/django@1.26.20",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pandas",
+      "version": "0.7.43",
+      "purl": "pkg:pypi/pandas@0.7.43",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-85894",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.7,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:N"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "4.27.29"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "spring-core",
+      "version": "2.29.29",
+      "purl": "pkg:maven/com.example/spring-core@2.29.29",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-38460",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.0,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:H/UI:R/S:C/C:N/I:H/A:H"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "5.24.18"
+        },
+        {
+          "cve_id": "CVE-2023-43508",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.8,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:L"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "0.19.1"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "guava",
+      "version": "5.25.11",
+      "purl": "pkg:maven/com.example/guava@5.25.11",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-60844",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.1,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "2.4.45"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

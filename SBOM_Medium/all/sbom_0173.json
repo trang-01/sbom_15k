@@ -1,0 +1,107 @@
+{
+  "document_id": "sbom-0173",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "2.0.16",
+      "purl": "pkg:maven/com.example/okhttp@2.0.16",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-23808",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.7,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:N/A:H"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "1.9.15"
+        },
+        {
+          "cve_id": "CVE-2020-66193",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.5,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:N/I:N/A:L"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "4.15.50"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pandas",
+      "version": "1.24.11",
+      "purl": "pkg:pypi/pandas@1.24.11",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "debug",
+      "version": "2.10.35",
+      "purl": "pkg:npm/debug@2.10.35",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "minimist",
+      "version": "0.17.16",
+      "purl": "pkg:npm/minimist@0.17.16",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-22935",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.1,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "1.3.5"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-io",
+      "version": "0.23.47",
+      "purl": "pkg:maven/com.example/commons-io@0.23.47",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "minimist",
+      "version": "4.10.48",
+      "purl": "pkg:npm/minimist@4.10.48",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "gson",
+      "version": "5.4.7",
+      "purl": "pkg:maven/com.example/gson@5.4.7",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-53128",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.2,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:L"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "3.21.11"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

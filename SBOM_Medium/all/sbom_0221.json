@@ -1,0 +1,117 @@
+{
+  "document_id": "sbom-0221",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "lodash",
+      "version": "0.28.28",
+      "purl": "pkg:npm/lodash@0.28.28",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-81805",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.0,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:C/C:N/I:L/A:H"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "1.4.48"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "webpack",
+      "version": "2.0.30",
+      "purl": "pkg:npm/webpack@2.0.30",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "numpy",
+      "version": "2.24.46",
+      "purl": "pkg:pypi/numpy@2.24.46",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "toml",
+      "version": "1.9.27",
+      "purl": "pkg:golang/github.com/example/toml@1.9.27",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-28809",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.6,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:R/S:C/C:N/I:L/A:L"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "5.3.50"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "1.14.38",
+      "purl": "pkg:npm/react@1.14.38",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "minimist",
+      "version": "2.9.49",
+      "purl": "pkg:npm/minimist@2.9.49",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "chi",
+      "version": "4.0.13",
+      "purl": "pkg:golang/github.com/example/chi@4.0.13",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "qs",
+      "version": "0.14.49",
+      "purl": "pkg:npm/qs@0.14.49",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pandas",
+      "version": "5.24.21",
+      "purl": "pkg:pypi/pandas@5.24.21",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "fastapi",
+      "version": "5.9.20",
+      "purl": "pkg:pypi/fastapi@5.9.20",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-84218",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 2.6,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:L/UI:R/S:C/C:N/I:N/A:L"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "0.5.31"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

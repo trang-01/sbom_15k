@@ -1,0 +1,74 @@
+{
+  "document_id": "sbom-0008",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "golang",
+      "name": "grpc",
+      "version": "3.26.19",
+      "purl": "pkg:golang/github.com/example/grpc@3.26.19",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-40103",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.0,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:L/UI:R/S:C/C:L/I:N/A:L"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "1.27.45"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "debug",
+      "version": "3.4.17",
+      "purl": "pkg:npm/debug@3.4.17",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-29726",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.7,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:N/A:L"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "3.10.23"
+        },
+        {
+          "cve_id": "CVE-2025-79446",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.6,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:N/I:H/A:H"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "0.0.31"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "chalk",
+      "version": "2.16.31",
+      "purl": "pkg:npm/chalk@2.16.31",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "yaml",
+      "version": "4.9.19",
+      "purl": "pkg:golang/github.com/example/yaml@4.9.19",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

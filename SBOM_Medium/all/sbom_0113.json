@@ -1,0 +1,56 @@
+{
+  "document_id": "sbom-0113",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "axios",
+      "version": "5.13.20",
+      "purl": "pkg:npm/axios@5.13.20",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-87352",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.1,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:H/UI:R/S:U/C:L/I:H/A:H"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "5.6.24"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "0.25.45",
+      "purl": "pkg:npm/react@0.25.45",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-45637",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.3,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:C/C:N/I:H/A:L"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "4.13.19"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "debug",
+      "version": "2.10.50",
+      "purl": "pkg:npm/debug@2.10.50",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

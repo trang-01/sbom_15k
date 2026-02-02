@@ -1,0 +1,74 @@
+{
+  "document_id": "sbom-0201",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "minimist",
+      "version": "2.16.22",
+      "purl": "pkg:npm/minimist@2.16.22",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-06349",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.6,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "0.17.15"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "spring-core",
+      "version": "0.12.36",
+      "purl": "pkg:maven/com.example/spring-core@0.12.36",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "minimist",
+      "version": "2.15.17",
+      "purl": "pkg:npm/minimist@2.15.17",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-43648",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 10.0,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:N/A:L"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "0.3.9"
+        },
+        {
+          "cve_id": "CVE-2023-39213",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.7,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:H/UI:R/S:C/C:H/I:L/A:H"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "2.2.6"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "flask",
+      "version": "5.27.27",
+      "purl": "pkg:pypi/flask@5.27.27",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

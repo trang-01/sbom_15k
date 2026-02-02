@@ -1,0 +1,174 @@
+{
+  "document_id": "sbom-0258",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "log4j",
+      "version": "2.21.13",
+      "purl": "pkg:maven/com.example/log4j@2.21.13",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-81184",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.8,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "3.29.46"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "grpc",
+      "version": "1.1.33",
+      "purl": "pkg:golang/github.com/example/grpc@1.1.33",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "django",
+      "version": "4.22.39",
+      "purl": "pkg:pypi/django@4.22.39",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-io",
+      "version": "2.26.4",
+      "purl": "pkg:maven/com.example/commons-io@2.26.4",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "spring-core",
+      "version": "3.3.23",
+      "purl": "pkg:maven/com.example/spring-core@3.3.23",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "protobuf",
+      "version": "4.11.40",
+      "purl": "pkg:golang/github.com/example/protobuf@4.11.40",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "requests",
+      "version": "4.29.6",
+      "purl": "pkg:pypi/requests@4.29.6",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "0.10.1",
+      "purl": "pkg:npm/react@0.10.1",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-54889",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.8,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:N"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "3.20.31"
+        },
+        {
+          "cve_id": "CVE-2020-39168",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.0,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:H/UI:R/S:C/C:N/I:N/A:N"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "4.30.41"
+        },
+        {
+          "cve_id": "CVE-2023-73658",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.1,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:R/S:U/C:N/I:L/A:N"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "4.30.48"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "debug",
+      "version": "4.5.36",
+      "purl": "pkg:npm/debug@4.5.36",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "requests",
+      "version": "5.21.32",
+      "purl": "pkg:pypi/requests@5.21.32",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-79299",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.2,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:L"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "0.0.29"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "log4j",
+      "version": "5.10.41",
+      "purl": "pkg:maven/com.example/log4j@5.10.41",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "cobra",
+      "version": "3.1.40",
+      "purl": "pkg:golang/github.com/example/cobra@3.1.40",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "5.18.32",
+      "purl": "pkg:golang/github.com/example/viper@5.18.32",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "urllib3",
+      "version": "0.19.39",
+      "purl": "pkg:pypi/urllib3@0.19.39",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "webpack",
+      "version": "2.24.26",
+      "purl": "pkg:npm/webpack@2.24.26",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

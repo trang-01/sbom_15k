@@ -1,0 +1,74 @@
+{
+  "document_id": "sbom-0279",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "pypi",
+      "name": "flask",
+      "version": "0.3.9",
+      "purl": "pkg:pypi/flask@0.3.9",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-68731",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.3,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:H/UI:R/S:U/C:H/I:H/A:L"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "2.0.21"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "flask",
+      "version": "5.13.26",
+      "purl": "pkg:pypi/flask@5.13.26",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "0.0.9",
+      "purl": "pkg:maven/com.example/jackson-databind@0.0.9",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-94114",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.6,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:C/C:L/I:H/A:H"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "1.17.47"
+        },
+        {
+          "cve_id": "CVE-2021-21473",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 2.4,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:R/S:U/C:L/I:H/A:L"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "5.24.20"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "protobuf",
+      "version": "2.28.30",
+      "purl": "pkg:golang/github.com/example/protobuf@2.28.30",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

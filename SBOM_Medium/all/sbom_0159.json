@@ -1,0 +1,55 @@
+{
+  "document_id": "sbom-0159",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "qs",
+      "version": "5.28.5",
+      "purl": "pkg:npm/qs@5.28.5",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-13651",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.8,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:N/I:L/A:H"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "1.29.40"
+        },
+        {
+          "cve_id": "CVE-2025-91273",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.9,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:L/I:H/A:L"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "4.28.3"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "minimist",
+      "version": "2.4.35",
+      "purl": "pkg:npm/minimist@2.4.35",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lodash",
+      "version": "3.30.43",
+      "purl": "pkg:npm/lodash@3.30.43",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

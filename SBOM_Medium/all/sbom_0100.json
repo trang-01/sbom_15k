@@ -1,0 +1,192 @@
+{
+  "document_id": "sbom-0100",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "pypi",
+      "name": "jinja2",
+      "version": "1.20.42",
+      "purl": "pkg:pypi/jinja2@1.20.42",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-13814",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.2,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:H/UI:R/S:U/C:N/I:N/A:L"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "3.21.9"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "chi",
+      "version": "4.0.35",
+      "purl": "pkg:golang/github.com/example/chi@4.0.35",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-31615",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.7,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:H/UI:N/S:C/C:L/I:H/A:L"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "2.5.40"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "cobra",
+      "version": "4.6.24",
+      "purl": "pkg:golang/github.com/example/cobra@4.6.24",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "toml",
+      "version": "4.28.16",
+      "purl": "pkg:golang/github.com/example/toml@4.28.16",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-92435",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.1,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:L/A:H"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "4.25.11"
+        },
+        {
+          "cve_id": "CVE-2025-12094",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.2,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:L"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "3.4.40"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "protobuf",
+      "version": "0.20.8",
+      "purl": "pkg:golang/github.com/example/protobuf@0.20.8",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "grpc",
+      "version": "4.15.9",
+      "purl": "pkg:golang/github.com/example/grpc@4.15.9",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-54248",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 0.7,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:L"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "3.11.32"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pandas",
+      "version": "0.16.29",
+      "purl": "pkg:pypi/pandas@0.16.29",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "gson",
+      "version": "3.10.18",
+      "purl": "pkg:maven/com.example/gson@3.10.18",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-53301",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.7,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:H/UI:R/S:C/C:N/I:L/A:L"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "1.5.8"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "numpy",
+      "version": "2.19.31",
+      "purl": "pkg:pypi/numpy@2.19.31",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-io",
+      "version": "2.28.25",
+      "purl": "pkg:maven/com.example/commons-io@2.28.25",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "2.7.32",
+      "purl": "pkg:maven/com.example/jackson-databind@2.7.32",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "2.0.7",
+      "purl": "pkg:golang/github.com/example/viper@2.0.7",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-06472",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.8,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "5.2.37"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "spring-core",
+      "version": "3.12.32",
+      "purl": "pkg:maven/com.example/spring-core@3.12.32",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-lang3",
+      "version": "1.10.32",
+      "purl": "pkg:maven/com.example/commons-lang3@1.10.32",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

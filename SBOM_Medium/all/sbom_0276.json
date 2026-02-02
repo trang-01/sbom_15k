@@ -1,0 +1,78 @@
+{
+  "document_id": "sbom-0276",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "3.15.10",
+      "purl": "pkg:maven/com.example/jackson-databind@3.15.10",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-29950",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.3,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:C/C:N/I:N/A:L"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "5.14.8"
+        },
+        {
+          "cve_id": "CVE-2021-54395",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.3,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:H"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "4.17.21"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "gin",
+      "version": "0.24.25",
+      "purl": "pkg:golang/github.com/example/gin@0.24.25",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-07813",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.2,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "0.25.44"
+        },
+        {
+          "cve_id": "CVE-2023-67779",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.4,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:H/UI:R/S:C/C:N/I:H/A:H"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "1.29.50"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pyyaml",
+      "version": "5.27.35",
+      "purl": "pkg:pypi/pyyaml@5.27.35",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

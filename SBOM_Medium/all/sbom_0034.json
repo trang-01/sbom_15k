@@ -1,0 +1,169 @@
+{
+  "document_id": "sbom-0034",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "0.14.12",
+      "purl": "pkg:maven/com.example/jackson-databind@0.14.12",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-35186",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.1,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:H"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "1.30.44"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-lang3",
+      "version": "1.19.10",
+      "purl": "pkg:maven/com.example/commons-lang3@1.19.10",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-08152",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.7,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:R/S:C/C:L/I:H/A:H"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "1.21.5"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "spring-core",
+      "version": "1.5.23",
+      "purl": "pkg:maven/com.example/spring-core@1.5.23",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "jinja2",
+      "version": "4.8.39",
+      "purl": "pkg:pypi/jinja2@4.8.39",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-63230",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.3,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "3.5.5"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "4.15.47",
+      "purl": "pkg:maven/com.example/okhttp@4.15.47",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-36965",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.4,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I:H/A:N"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "1.8.29"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "chi",
+      "version": "3.11.2",
+      "purl": "pkg:golang/github.com/example/chi@3.11.2",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-67539",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.6,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:R/S:C/C:N/I:H/A:L"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "4.8.28"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "5.21.25",
+      "purl": "pkg:golang/github.com/example/viper@5.21.25",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-01405",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.6,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "5.7.15"
+        },
+        {
+          "cve_id": "CVE-2023-83679",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 7.7,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:L/I:L/A:L"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "4.15.50"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-io",
+      "version": "4.4.9",
+      "purl": "pkg:maven/com.example/commons-io@4.4.9",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "gson",
+      "version": "3.6.39",
+      "purl": "pkg:maven/com.example/gson@3.6.39",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-82178",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.0,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:L/UI:R/S:C/C:L/I:H/A:L"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "1.12.23"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "document_id": "sbom-0078",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "log4j",
+      "version": "0.6.7",
+      "purl": "pkg:maven/com.example/log4j@0.6.7",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-30872",
+          "severity": "critical",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 9.6,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:H"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "0.18.22"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "cryptography",
+      "version": "5.4.40",
+      "purl": "pkg:pypi/cryptography@5.4.40",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "webpack",
+      "version": "0.22.44",
+      "purl": "pkg:npm/webpack@0.22.44",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-70766",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.2,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:H/UI:R/S:C/C:H/I:N/A:L"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "1.9.0"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "log4j",
+      "version": "5.17.42",
+      "purl": "pkg:maven/com.example/log4j@5.17.42",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-84677",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.6,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "4.16.0"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "chi",
+      "version": "1.28.38",
+      "purl": "pkg:golang/github.com/example/chi@1.28.38",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-50512",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.2,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:L/A:H"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "5.0.45"
+        },
+        {
+          "cve_id": "CVE-2024-49046",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.0,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "4.29.32"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "debug",
+      "version": "1.16.27",
+      "purl": "pkg:npm/debug@1.16.27",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-05151",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.6,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:H/UI:N/S:U/C:H/I:L/A:N"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "4.28.0"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "spring-core",
+      "version": "1.23.15",
+      "purl": "pkg:maven/com.example/spring-core@1.23.15",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "cobra",
+      "version": "4.7.26",
+      "purl": "pkg:golang/github.com/example/cobra@4.7.26",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-78240",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.3,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:U/C:H/I:L/A:H"
+          },
+          "cwe": "CWE-190",
+          "fixed_version": "0.17.46"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "5.4.45",
+      "purl": "pkg:maven/com.example/jackson-databind@5.4.45",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-67110",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.9,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:N/A:L"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "5.13.34"
+        },
+        {
+          "cve_id": "CVE-2021-09805",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.8,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:H/UI:N/S:C/C:N/I:L/A:L"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "4.14.11"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "2.13.23",
+      "purl": "pkg:golang/github.com/example/viper@2.13.23",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-23119",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.4,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:H/UI:R/S:C/C:H/I:H/A:L"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "2.2.7"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "spring-core",
+      "version": "0.26.26",
+      "purl": "pkg:maven/com.example/spring-core@0.26.26",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "yaml",
+      "version": "2.24.32",
+      "purl": "pkg:golang/github.com/example/yaml@2.24.32",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "3.3.41",
+      "purl": "pkg:maven/com.example/jackson-databind@3.3.41",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

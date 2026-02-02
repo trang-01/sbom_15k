@@ -1,0 +1,103 @@
+{
+  "document_id": "sbom-0191",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "maven",
+      "name": "commons-lang3",
+      "version": "4.13.6",
+      "purl": "pkg:maven/com.example/commons-lang3@4.13.6",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-83676",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.2,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:C/C:N/I:L/A:L"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "2.12.22"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pyyaml",
+      "version": "1.25.23",
+      "purl": "pkg:pypi/pyyaml@1.25.23",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "yaml",
+      "version": "3.11.6",
+      "purl": "pkg:golang/github.com/example/yaml@3.11.6",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2023-35268",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.3,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:L"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "1.5.1"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "numpy",
+      "version": "0.1.14",
+      "purl": "pkg:pypi/numpy@0.1.14",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-97240",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.2,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:L/I:H/A:L"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "0.23.33"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "numpy",
+      "version": "3.26.37",
+      "purl": "pkg:pypi/numpy@3.26.37",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pandas",
+      "version": "2.30.40",
+      "purl": "pkg:pypi/pandas@2.30.40",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "cryptography",
+      "version": "2.11.1",
+      "purl": "pkg:pypi/cryptography@2.11.1",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "2.4.12",
+      "purl": "pkg:golang/github.com/example/viper@2.4.12",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

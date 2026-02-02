@@ -1,0 +1,205 @@
+{
+  "document_id": "sbom-0039",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "minimist",
+      "version": "3.21.40",
+      "purl": "pkg:npm/minimist@3.21.40",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2026-87551",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.6,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:R/S:U/C:H/I:L/A:N"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "2.17.20"
+        },
+        {
+          "cve_id": "CVE-2020-61921",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.4,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:N/I:L/A:L"
+          },
+          "cwe": "CWE-20",
+          "fixed_version": "3.12.41"
+        }
+      ]
+    },
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "2.19.32",
+      "purl": "pkg:maven/com.example/okhttp@2.19.32",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-48100",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.9,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:L/A:H"
+          },
+          "cwe": "CWE-787",
+          "fixed_version": "4.18.24"
+        },
+        {
+          "cve_id": "CVE-2023-93730",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.4,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "1.5.15"
+        },
+        {
+          "cve_id": "CVE-2026-17351",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 1.2,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "2.27.24"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "viper",
+      "version": "2.5.28",
+      "purl": "pkg:golang/github.com/example/viper@2.5.28",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-06504",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.9,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:H/UI:R/S:U/C:N/I:L/A:L"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "3.1.9"
+        },
+        {
+          "cve_id": "CVE-2020-18511",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 4.5,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "5.16.48"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "minimist",
+      "version": "2.28.40",
+      "purl": "pkg:npm/minimist@2.28.40",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "debug",
+      "version": "0.22.17",
+      "purl": "pkg:npm/debug@0.22.17",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-29108",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.0,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:N/I:L/A:H"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "5.15.50"
+        },
+        {
+          "cve_id": "CVE-2021-08923",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.8,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:R/S:U/C:H/I:L/A:N"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "1.16.31"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "chi",
+      "version": "4.22.0",
+      "purl": "pkg:golang/github.com/example/chi@4.22.0",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2024-17320",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.6,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:H/A:L"
+          },
+          "cwe": "CWE-125",
+          "fixed_version": "5.27.15"
+        },
+        {
+          "cve_id": "CVE-2026-48620",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.1,
+            "vector": "CVSS:3.1/AV:P/AC:L/PR:H/UI:R/S:C/C:N/I:H/A:N"
+          },
+          "cwe": "CWE-287",
+          "fixed_version": "5.7.34"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "cryptography",
+      "version": "5.4.21",
+      "purl": "pkg:pypi/cryptography@5.4.21",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "spring-core",
+      "version": "3.10.48",
+      "purl": "pkg:maven/com.example/spring-core@3.10.48",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2021-89286",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.1,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+          },
+          "cwe": "CWE-416",
+          "fixed_version": "0.3.27"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}

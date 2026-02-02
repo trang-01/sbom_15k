@@ -1,0 +1,163 @@
+{
+  "document_id": "sbom-0097",
+  "type": "synthetic-sbom-with-vulnerabilities",
+  "generated_at": "2026-02-02T10:38:59Z",
+  "packages": [
+    {
+      "ecosystem": "npm",
+      "name": "debug",
+      "version": "2.22.43",
+      "purl": "pkg:npm/debug@2.22.43",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2025-46350",
+          "severity": "high",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 8.0,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:N/A:L"
+          },
+          "cwe": "CWE-79",
+          "fixed_version": "4.30.46"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "jsonwebtoken",
+      "version": "2.27.16",
+      "purl": "pkg:npm/jsonwebtoken@2.27.16",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2020-59255",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 5.1,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:H"
+          },
+          "cwe": "CWE-89",
+          "fixed_version": "0.12.21"
+        },
+        {
+          "cve_id": "CVE-2026-66114",
+          "severity": "medium",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 6.5,
+            "vector": "CVSS:3.1/AV:P/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:H"
+          },
+          "cwe": "CWE-352",
+          "fixed_version": "5.14.40"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "yaml",
+      "version": "2.21.45",
+      "purl": "pkg:golang/github.com/example/yaml@2.21.45",
+      "vulnerabilities": [
+        {
+          "cve_id": "CVE-2022-70983",
+          "severity": "low",
+          "cvss": {
+            "method": "CVSSv31",
+            "score": 2.6,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:L"
+          },
+          "cwe": "CWE-22",
+          "fixed_version": "4.3.36"
+        }
+      ]
+    },
+    {
+      "ecosystem": "golang",
+      "name": "cobra",
+      "version": "4.15.45",
+      "purl": "pkg:golang/github.com/example/cobra@4.15.45",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "jinja2",
+      "version": "2.28.22",
+      "purl": "pkg:pypi/jinja2@2.28.22",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "axios",
+      "version": "0.20.45",
+      "purl": "pkg:npm/axios@0.20.45",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "jackson-databind",
+      "version": "1.8.4",
+      "purl": "pkg:maven/com.example/jackson-databind@1.8.4",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "okhttp",
+      "version": "1.22.15",
+      "purl": "pkg:maven/com.example/okhttp@1.22.15",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "chi",
+      "version": "1.2.21",
+      "purl": "pkg:golang/github.com/example/chi@1.2.21",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "spring-core",
+      "version": "0.0.19",
+      "purl": "pkg:maven/com.example/spring-core@0.0.19",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "cobra",
+      "version": "0.25.8",
+      "purl": "pkg:golang/github.com/example/cobra@0.25.8",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "golang",
+      "name": "toml",
+      "version": "1.4.29",
+      "purl": "pkg:golang/github.com/example/toml@1.4.29",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "flask",
+      "version": "3.21.4",
+      "purl": "pkg:pypi/flask@3.21.4",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "maven",
+      "name": "commons-lang3",
+      "version": "3.15.45",
+      "purl": "pkg:maven/com.example/commons-lang3@3.15.45",
+      "vulnerabilities": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "qs",
+      "version": "5.17.44",
+      "purl": "pkg:npm/qs@5.17.44",
+      "vulnerabilities": []
+    }
+  ],
+  "labels": {
+    "synthetic": true,
+    "seed": 20260202
+  }
+}
